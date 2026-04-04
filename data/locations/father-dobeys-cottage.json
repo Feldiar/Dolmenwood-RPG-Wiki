@@ -1,0 +1,19 @@
+{
+  "id": "father-dobeys-cottage",
+  "name": "Father Dobey's Cottage",
+  "type": "Building",
+  "region": "Lankshorn",
+  "first_seen": "session-2",
+  "description": "A thatched-roof cottage in Lankshorn where Father Dobey lives.",
+  "notes": [
+    "The party brought the rescued Mabble here after returning from Droomen Knoll. Father Dobey dressed Mabble's head wound himself."
+  ],
+  "npcs": ["Father Dobey", "Mabble"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "npcs": ["Father Dobey", "Mabble"],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-2"]
+}

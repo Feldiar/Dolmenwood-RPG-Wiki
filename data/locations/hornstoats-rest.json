@@ -1,0 +1,19 @@
+{
+  "id": "hornstoats-rest",
+  "name": "Hornstoat's Rest",
+  "type": "Inn",
+  "region": "Lankshorn",
+  "first_seen": "session-1",
+  "description": "The inn in Lankshorn. The party met Llerg here and first learned of the disappearances.",
+  "notes": [
+    "Run by Margery Stallowmead."
+  ],
+  "npcs": ["Margery Stallowmead", "Llerg"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "factions": [],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1"]
+}

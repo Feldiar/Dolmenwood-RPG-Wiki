@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lankshorn — Dolmenwood Campaign Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <style>
+    #lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 9999;
+      cursor: zoom-out;
+      align-items: center;
+      justify-content: center;
+    }
+    #lightbox-overlay.active { display: flex; }
+    #lightbox-overlay img {
+      max-width: 92vw;
+      max-height: 92vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div class="layout">
+
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <a href="../../index.html">Dolmenwood Campaign Wiki</a>
+    <span class="campaign-name">Dolmenwood</span>
+  </div>
+  <div class="sidebar-section">Party</div>
+  <a class="sidebar-item" href="../../pages/party.html">The Party</a>
+  <div class="sidebar-section">World</div>
+  <a class="sidebar-item active" href="../../pages/locations/index.html">Locations</a>
+  <a class="sidebar-item" href="../../pages/factions/index.html">Factions</a>
+  <a class="sidebar-item" href="../../pages/npcs/index.html">NPCs</a>
+  <div class="sidebar-section">Story</div>
+  <a class="sidebar-item" href="../../pages/quests/index.html">Quests</a>
+  <a class="sidebar-item" href="../../pages/loose-ends.html">Loose Ends, Rumors, and Misc.</a>
+  <div class="sidebar-section">Journal</div>
+  <a class="sidebar-item" href="../../pages/sessions/session-1.html">Session 1 — The Road East</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-2.html">Session 2 — Below the Knoll</a>
+</nav>
+
+<main class="main">
+  <div class="main-inner">
+
+    <div class="page-header">
+      <div class="page-eyebrow">
+        <a href="../../index.html">Home</a>
+        <span class="separator">›</span>
+        <a href="index.html">Locations</a>
+        <span class="separator">›</span>
+        Lankshorn
+      </div>
+      <h1 class="page-title">Lankshorn</h1>
+      <div class="page-meta"><span class="tag tag-session">S1</span></div>
+    </div>
+
+    <div class="entity-layout">
+      <div class="entity-content">
+        <p>A market town in the <a class="wiki-link" href="../../pages/locations/the-high-wold.html">High Wold</a> with a population of humans, breggles, and people of mixed human and breggle parentage. The party is currently based here.</p>
+        <ul>
+  <li>Has an inn (<a class="wiki-link" href="../../pages/locations/hornstoats-rest.html">Hornstoat's Rest</a>), a bladesmith, and an apothecary.</li>
+  <li><a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a> lies to the East; <a class="wiki-link" href="../../pages/locations/redwraith-manor.html">Redwraith Manor</a> lies to the North.</li>
+  <li>A ring of standing stones sits on a hill just outside of town, with no path leading to it.</li>
+  <li>The Moot is the town's market day.</li>
+</ul>
+        
+        
+        <h2>Notable Places</h2><ul>
+  <li><a class="wiki-link" href="../../pages/locations/hornstoats-rest.html">Hornstoat's Rest</a></li>
+  <li><a class="wiki-link" href="../../pages/locations/church-of-st-pastery.html">Church of St. Pastery</a></li>
+  <li><a class="wiki-link" href="../../pages/locations/bogways.html">Bogways</a></li>
+  <li><a class="wiki-link" href="../../pages/locations/the-constabulary.html">The Constabulary</a></li>
+  <li><a class="wiki-link" href="../../pages/locations/father-dobeys-cottage.html">Father Dobey's Cottage</a></li>
+</ul>
+        <h2>People Here</h2><ul>
+  <li><a class="wiki-link" href="../../pages/npcs/margery-stallowmead.html">Margery Stallowmead</a></li>
+  <li><a class="wiki-link" href="../../pages/npcs/father-dobey.html">Father Dobey</a></li>
+  <li><a class="wiki-link" href="../../pages/npcs/llerg.html">Llerg</a></li>
+  <li><a class="wiki-link" href="../../pages/npcs/sidney-wolder.html">Constable Sidney Wolder</a></li>
+  <li><a class="wiki-link" href="../../pages/npcs/sgt-marge-bregson.html">Sgt. Marge Bregson</a></li>
+</ul>
+      </div>
+      <div class="entity-sidebar">
+        
+    <div class="entity-sidebar-block">
+      <h4>Region</h4>
+      <p style="font-size:14px;"><a class="wiki-link" href="../../pages/locations/the-high-wold.html">The High Wold</a></p>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Quests</h4>
+      <ul><li><a class="wiki-link" href="../../pages/quests/the-missing.html">The Missing</a></li><li><a class="wiki-link" href="../../pages/quests/crookhorn-bounty.html">Crookhorn Bounty</a></li><li><a class="wiki-link" href="../../pages/quests/the-crooked-constable.html">The Crooked Constable</a></li></ul>
+    </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</div>
+
+<div id="lightbox-overlay">
+  <img id="lightbox-img" src="" alt="Enlarged map view">
+</div>
+<script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var img     = document.getElementById('lightbox-img');
+    window.openLightbox = function(src) {
+      img.src = src;
+      overlay.classList.add('active');
+    };
+    overlay.addEventListener('click', function() {
+      overlay.classList.remove('active');
+      img.src = '';
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        img.src = '';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "id": "baron-hogwarsh",
+  "name": "Baron Hogwarsh",
+  "aliases": ["Hogwarsh"],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Baron",
+  "location": "Unknown",
+  "description": "The Baron who divided the High Wold between Lord Shadgore Ramius and Lord Malbleat approximately 20 years ago.",
+  "notes": [],
+  "connections": {
+    "locations": ["The High Wold"],
+    "npcs": ["Lord Shadgore Ramius", "Lord Malbleat"],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

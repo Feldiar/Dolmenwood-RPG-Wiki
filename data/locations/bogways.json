@@ -1,0 +1,23 @@
+{
+  "id": "bogways",
+  "name": "Bogways",
+  "type": "Stable / Waypoint",
+  "region": "Lankshorn",
+  "first_seen": "session-1",
+  "description": "An inn in Lankshorn and the only reliable place in the area to stable animals.",
+  "notes": [
+    "Carries Nippers (fermented catnip), the favored drink of grimalkins."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": [
+      "Lankshorn"
+    ],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": [
+    "session-1"
+  ]
+}

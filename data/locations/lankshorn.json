@@ -1,0 +1,44 @@
+{
+  "id": "lankshorn",
+  "name": "Lankshorn",
+  "type": "Town",
+  "region": "The High Wold",
+  "first_seen": "session-1",
+  "description": "A market town in the High Wold with a population of humans, breggles, and people of mixed human and breggle parentage. The party is currently based here.",
+  "notes": [
+    "Has an inn (Hornstoat's Rest), a bladesmith, and an apothecary.",
+    "Dreg lies to the East; Redwraith Manor lies to the North.",
+    "A ring of standing stones sits on a hill just outside of town, with no path leading to it.",
+    "The Moot is the town's market day."
+  ],
+  "npcs": [
+    "Margery Stallowmead",
+    "Father Dobey",
+    "Llerg",
+    "Constable Sidney Wolder",
+    "Sgt. Marge Bregson"
+  ],
+  "sublocations": [
+    "Hornstoat's Rest",
+    "Church of St. Pastery",
+    "Bogways",
+    "The Constabulary",
+    "Father Dobey's Cottage"
+  ],
+  "connections": {
+    "locations": [
+      "Hornstoat's Rest",
+      "Church of St. Pastery",
+      "The High Wold",
+      "Dreg",
+      "Redwraith Manor"
+    ],
+    "factions": [],
+    "quests": [
+      "The Missing",
+      "Crookhorn Bounty",
+      "The Crooked Constable"
+    ]
+  },
+  "sessions": ["session-1", "session-2"]
+}

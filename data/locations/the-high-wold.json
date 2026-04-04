@@ -1,0 +1,36 @@
+{
+  "id": "the-high-wold",
+  "name": "The High Wold",
+  "type": "Region",
+  "first_seen": "session-1",
+  "description": "A territory jointly ruled by Lord Shadgore Ramius \u2014 a longhorn breggle \u2014 and his younger half-brother Lord Malbleat. The land was split between them approximately 20 years ago by Baron Hogwarsh.",
+  "notes": [],
+  "npcs": [
+    "Lord Shadgore Ramius",
+    "Lord Malbleat",
+    "Baron Hogwarsh"
+  ],
+  "sublocations": [
+    "Lankshorn",
+    "Redwraith Manor",
+    "The Ditchway",
+    "Dreg",
+    "Droomen Knoll",
+    "The Abbey"
+  ],
+  "connections": {
+    "locations": [
+      "Lankshorn",
+      "Redwraith Manor",
+      "The Ditchway",
+      "Dreg",
+      "Droomen Knoll",
+      "The Abbey"
+    ],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": [
+    "session-1"
+  ]
+}

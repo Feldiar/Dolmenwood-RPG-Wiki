@@ -1,0 +1,20 @@
+{
+  "id": "margery-stallowmead",
+  "name": "Margery Stallowmead",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Innkeeper",
+  "location": "Hornstoat's Rest",
+  "description": "Proprietor of Hornstoat's Rest in Lankshorn.",
+  "notes": [
+    "Has three sons and one daughter.",
+    "Her daughter is part human, part breggle."
+  ],
+  "connections": {
+    "locations": ["Hornstoat's Rest", "Lankshorn"],
+    "npcs": [],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

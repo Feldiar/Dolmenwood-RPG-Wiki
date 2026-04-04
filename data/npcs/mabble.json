@@ -1,0 +1,23 @@
+{
+  "id": "mabble",
+  "name": "Mabble",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Servant",
+  "location": "Father Dobey's Cottage",
+  "description": "Father Dobey's servant. Short, portly, and white-haired. Went missing and was found unconscious in the dungeon beneath Droomen Knoll.",
+  "notes": [
+    "Wooden prayer beads found on the Ditchway belonged to Mabble; Brother Henrick is holding onto them.",
+    "One of three people who went missing, linked to the strange pipe music.",
+    "Found unconscious in the dungeon beneath Droomen Knoll, held by the crookhorns. Had been following the sound of the pipe music, became enchanted, and was struck from behind.",
+    "Did not see or hear any other prisoners while drifting in and out of consciousness.",
+    "Rescued and returned to Father Dobey's cottage. Head wound dressed by Father Dobey."
+  ],
+  "connections": {
+    "locations": ["Church of St. Pastery", "Father Dobey's Cottage", "The Ditchway", "Droomen Knoll"],
+    "npcs": ["Father Dobey"],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

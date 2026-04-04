@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loose Ends, Rumors, and Miscellaneous Information — Dolmenwood Campaign Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    #lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 9999;
+      cursor: zoom-out;
+      align-items: center;
+      justify-content: center;
+    }
+    #lightbox-overlay.active { display: flex; }
+    #lightbox-overlay img {
+      max-width: 92vw;
+      max-height: 92vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div class="layout">
+
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <a href="../index.html">Dolmenwood Campaign Wiki</a>
+    <span class="campaign-name">Dolmenwood</span>
+  </div>
+  <div class="sidebar-section">Party</div>
+  <a class="sidebar-item" href="../pages/party.html">The Party</a>
+  <div class="sidebar-section">World</div>
+  <a class="sidebar-item" href="../pages/locations/index.html">Locations</a>
+  <a class="sidebar-item" href="../pages/factions/index.html">Factions</a>
+  <a class="sidebar-item" href="../pages/npcs/index.html">NPCs</a>
+  <div class="sidebar-section">Story</div>
+  <a class="sidebar-item" href="../pages/quests/index.html">Quests</a>
+  <a class="sidebar-item active" href="../pages/loose-ends.html">Loose Ends, Rumors, and Misc.</a>
+  <div class="sidebar-section">Journal</div>
+  <a class="sidebar-item" href="../pages/sessions/session-1.html">Session 1 — The Road East</a>
+  <a class="sidebar-item" href="../pages/sessions/session-2.html">Session 2 — Below the Knoll</a>
+</nav>
+
+<main class="main">
+  <div class="main-inner">
+
+    <div class="page-header">
+      <div class="page-eyebrow">
+        <a href="../index.html">Home</a>
+        <span class="separator">›</span>
+        Story
+        <span class="separator">›</span>
+        Loose Ends, Rumors, and Miscellaneous Information
+      </div>
+      <h1 class="page-title">Loose Ends, Rumors, and Miscellaneous Information</h1>
+      <p style="color:var(--text-muted);font-size:15px;margin-top:var(--space-md);">
+        Things the party has heard or noticed that don't yet tie to an active quest.
+      </p>
+    </div>
+
+    
+    <div class="quest-block">
+      <div class="quest-block-title">
+        The Abbey
+        <span class="tag tag-session">S1</span>
+      </div>
+      <p>Something significant happened at the Abbey approximately 250 years ago, after which it cannot be entered. Shrines in the surrounding woods are connected to this history.</p>
+    </div>
+    <div class="quest-block">
+      <div class="quest-block-title">
+        Statue of St. Nuncy the Wretched
+        <span class="tag tag-session">S1</span>
+      </div>
+      <p>Shared by <a class="wiki-link" href="../pages/party.html">Lucien</a> in Session 1: a statue of St. Nuncy the Wretched — a minor saint associated with the downtrodden — once existed somewhere in the region, but was lost centuries ago.</p>
+    </div>
+    <div class="quest-block">
+      <div class="quest-block-title">
+        The Cold Prince and the Frost Elves
+        <span class="tag tag-session">S2</span>
+      </div>
+      <p>Frescoes in the dungeon beneath <a class="wiki-link" href="../pages/locations/droomen-knoll.html">Droomen Knoll</a> depict white humanoid silhouettes in an icy forest. <a class="wiki-link" href="../pages/party.html">Lucien</a> identified them as frost elves, associated with the Cold Prince. Their connection to the ruins is unknown.</p>
+    </div>
+    <div class="quest-block">
+      <div class="quest-block-title">
+        The Frozen Pool
+        <span class="tag tag-session">S2</span>
+      </div>
+      <p>A raised stone pool in the deepest explored chamber beneath <a class="wiki-link" href="../pages/locations/droomen-knoll.html">Droomen Knoll</a> — frozen solid, with stag skull carvings on the basin and snow falling from the ceiling. A chalice of great beauty is visible beneath the ice, with an air bubble inside. A legend speaks of such a pool and its chalice, bound up in fairy ice and mortal blood. The party resealed the chamber and left it undisturbed.</p>
+    </div>
+    <div class="quest-block">
+      <div class="quest-block-title">
+        King Pusskin
+        <span class="tag tag-session">S2</span>
+      </div>
+      <p>Mentioned by <a class="wiki-link" href="../pages/npcs/sgt-marge-bregson.html">Sgt. Marge Bregson</a>: rumours of a King Pusskin to the south. No further details known.</p>
+    </div>
+    <div class="quest-block">
+      <div class="quest-block-title">
+        Nightworms
+        <span class="tag tag-session">S2</span>
+      </div>
+      <p><a class="wiki-link" href="../pages/party.html">Gwomotom</a> knows that nightworms grow large, live in underground tunnels, are edible, but can constrict and eat a person. Immature spawn were spotted on the <a class="wiki-link" href="../pages/locations/the-ditchway.html">Ditchway</a> in Session 1.</p>
+    </div>
+
+  </div>
+</main>
+
+</div>
+
+<div id="lightbox-overlay">
+  <img id="lightbox-img" src="" alt="Enlarged map view">
+</div>
+<script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var img     = document.getElementById('lightbox-img');
+    window.openLightbox = function(src) {
+      img.src = src;
+      overlay.classList.add('active');
+    };
+    overlay.addEventListener('click', function() {
+      overlay.classList.remove('active');
+      img.src = '';
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        img.src = '';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

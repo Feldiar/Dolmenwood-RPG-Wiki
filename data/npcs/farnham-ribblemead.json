@@ -1,0 +1,27 @@
+{
+  "id": "farnham-ribblemead",
+  "name": "Farnham Ribblemead",
+  "aliases": [],
+  "status": "missing",
+  "first_seen": "session-1",
+  "occupation": "Sage",
+  "location": "Unknown",
+  "description": "A sage and lover of books who has gone missing under mysterious circumstances.",
+  "notes": [
+    "Was seen reading a letter that may have prompted him to enter the woods.",
+    "Disappeared under similar circumstances to Emelda.",
+    "One of three people who have gone missing, possibly linked to the strange pipe music."
+  ],
+  "connections": {
+    "locations": [
+      "Lankshorn"
+    ],
+    "npcs": [],
+    "quests": [
+      "The Missing"
+    ]
+  },
+  "sessions": [
+    "session-1"
+  ]
+}

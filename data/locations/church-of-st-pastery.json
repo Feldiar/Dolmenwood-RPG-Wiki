@@ -1,0 +1,20 @@
+{
+  "id": "church-of-st-pastery",
+  "name": "Church of St. Pastery",
+  "type": "Religious Site",
+  "region": "Lankshorn",
+  "first_seen": "session-1",
+  "description": "The Pluritine Church's representation in Lankshorn. Built from antique stone with a tall steeple and carved gargoyles and angels in conflict. The exterior is dramatic and imposing; the interior is plain and unadorned.",
+  "notes": [
+    "A wooden statue of St. Pastery stands inside, depicted holding a shovel and cleaver.",
+    "Father Dobey serves as priest. He carries a gold holy symbol."
+  ],
+  "npcs": ["Father Dobey"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "factions": [],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1"]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "emelda",
+  "name": "Emelda",
+  "aliases": [],
+  "status": "missing",
+  "first_seen": "session-1",
+  "occupation": "Townsperson",
+  "location": "Unknown",
+  "description": "A woman known around Lankshorn for her lovely singing voice. Has been missing for over a week.",
+  "notes": [
+    "Not known for travelling.",
+    "Acted completely normally before she vanished.",
+    "One of three people who have gone missing, possibly linked to the strange pipe music."
+  ],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "npcs": [],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1"]
+}

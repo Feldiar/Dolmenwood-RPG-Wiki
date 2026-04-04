@@ -1,0 +1,23 @@
+{
+  "id": "sgt-marge-bregson",
+  "name": "Sgt. Marge Bregson",
+  "aliases": ["Sgt. Bregson", "Bregson", "Marge Bregson"],
+  "status": "active",
+  "first_seen": "session-2",
+  "occupation": "Sergeant",
+  "kindred": "Breggle",
+  "location": "The Constabulary",
+  "description": "A breggle sergeant at the Lankshorn constabulary. The party sought her out after Constable Wolder proved unhelpful. She mentioned rumours of King Pusskin to the south.",
+  "notes": [
+    "No more willing than Wolder to send guards into Droomen Knoll.",
+    "After Jack's persistent appeal, agreed to send one soldier — Brennan — with the party as an informant, on the condition they do their best to protect him.",
+    "Mentioned rumours of a King Pusskin to the south.",
+    "Allegiance uncertain: may be a genuine ally, or another agent in the same web as Wolder."
+  ],
+  "connections": {
+    "locations": ["The Constabulary", "Lankshorn"],
+    "npcs": ["Constable Sidney Wolder", "Brennan"],
+    "quests": ["The Crooked Constable"]
+  },
+  "sessions": ["session-2"]
+}

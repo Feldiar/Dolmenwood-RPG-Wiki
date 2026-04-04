@@ -1,0 +1,24 @@
+{
+  "id": "crookhorns",
+  "name": "Crookhorns",
+  "status": "active",
+  "first_seen": "session-1",
+  "description": "Corrupted breggles — one-horned, rabid, and dangerous. Created by the Nag-Lord, a feared figure in the region.",
+  "notes": [
+    "Four were discovered and killed at Droomen Knoll in Session 1: Berk, Drogba, and two unnamed. A fifth — the rabid crookhorn — fled down the stairs into the dungeon.",
+    "In Session 2, the rabid crookhorn and a sixth, one-horned crookhorn were killed in the storage room beneath Droomen Knoll.",
+    "The Constable and Burgomaster of Lankshorn offered a bounty for killing crookhorns. The bounty was paid out by Constable Sidney Wolder.",
+    "The Nag-Lord is known as the creator of crookhorns. A Gaff letter found at Droomen Knoll named Constable Sidney Wolder as a contact regarding crookhorn matters, suggesting Wolder may be in league with them.",
+    "Someone returned to the storage room after the party left and made precise puncture wounds in the breggle corpses."
+  ],
+  "known_members": [
+    "Berk",
+    "Drogba"
+  ],
+  "connections": {
+    "locations": ["Droomen Knoll"],
+    "npcs": ["Constable Sidney Wolder"],
+    "quests": ["Crookhorn Bounty", "The Crooked Constable"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

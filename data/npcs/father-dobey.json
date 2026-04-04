@@ -1,0 +1,21 @@
+{
+  "id": "father-dobey",
+  "name": "Father Dobey",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Vicar",
+  "location": "Father Dobey's Cottage",
+  "description": "Serves as vicar at the Church of St. Pastery in Lankshorn. Carries a gold holy symbol. Lives in a thatched-roof cottage in town.",
+  "notes": [
+    "His servant Mabble vanished three days ago and he was troubled by the disappearance.",
+    "When the party returned Mabble to his cottage, Dobey was relieved — though he put on something of a show — and troubled to learn crookhorns were nesting so close to Lankshorn. He dressed Mabble's head wound himself.",
+    "Connected to the quest to find the missing."
+  ],
+  "connections": {
+    "locations": ["Church of St. Pastery", "Father Dobey's Cottage", "Lankshorn"],
+    "npcs": ["Mabble"],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

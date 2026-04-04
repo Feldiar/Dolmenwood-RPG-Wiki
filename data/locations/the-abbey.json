@@ -1,0 +1,20 @@
+{
+  "id": "the-abbey",
+  "name": "The Abbey",
+  "type": "Religious Site",
+  "region": "The High Wold",
+  "first_seen": "session-1",
+  "description": "Something significant happened here approximately 250 years ago, after which the Abbey cannot be entered. Shrines in the surrounding woods are connected to this history.",
+  "notes": [
+    "Cannot be entered — reason unknown.",
+    "Shrines in the surrounding woods are connected to whatever happened here."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

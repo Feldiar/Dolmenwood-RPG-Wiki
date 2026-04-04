@@ -1,0 +1,24 @@
+{
+  "id": "sidney-wolder",
+  "name": "Constable Sidney Wolder",
+  "aliases": ["Sidney Wolder", "Wolder"],
+  "status": "active",
+  "first_seen": "session-2",
+  "occupation": "Constable",
+  "kindred": "Human",
+  "location": "The Constabulary",
+  "description": "The constable of Lankshorn. Met the party in a back room at the constabulary, refilling his own drink and offering none to his guests. He paid out the crookhorn bounty and advised the party not to return to Droomen Knoll.",
+  "notes": [
+    "Paid out the crookhorn bounty to the party.",
+    "Advised the party not to return to Droomen Knoll.",
+    "Suggested the party speak with Sgt. Marge Bregson if they wanted support.",
+    "A Gaff letter found at Droomen Knoll named Wolder as a contact regarding crookhorn matters, suggesting he may be in league with them. Llerg translated the letter; the party bribed him to keep quiet."
+  ],
+  "connections": {
+    "locations": ["The Constabulary", "Lankshorn"],
+    "npcs": ["Sgt. Marge Bregson"],
+    "factions": ["Crookhorns"],
+    "quests": ["The Crooked Constable", "Crookhorn Bounty"]
+  },
+  "sessions": ["session-2"]
+}

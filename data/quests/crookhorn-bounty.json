@@ -1,0 +1,18 @@
+{
+  "id": "crookhorn-bounty",
+  "name": "Crookhorn Bounty",
+  "status": "closed",
+  "first_seen": "session-1",
+  "description": "The Constable and Burgomaster of Lankshorn offered a bounty for killing crookhorns. The party collected the bounty in Session 2 — though Constable Wolder, who paid it out, may himself be in league with the crookhorns.",
+  "objectives": [
+    "Kill crookhorns and report back to the Constable and Burgomaster — Completed. Bounty paid out by Constable Sidney Wolder without proof of kills.",
+    "Six crookhorns were encountered in total: four killed at Droomen Knoll in Session 1, and the remaining two — including the rabid crookhorn that fled Session 1 — killed in the dungeon in Session 2."
+  ],
+  "leads": [],
+  "connections": {
+    "npcs": ["Constable Sidney Wolder"],
+    "locations": ["Lankshorn", "Droomen Knoll", "The Constabulary"],
+    "factions": ["Crookhorns"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

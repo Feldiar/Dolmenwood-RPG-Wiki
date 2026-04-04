@@ -1,0 +1,20 @@
+{
+  "id": "shadgore-ramius",
+  "name": "Lord Shadgore Ramius",
+  "aliases": ["Shadgore Ramius", "Ramius"],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Lord",
+  "kindred": "Longhorn Breggle",
+  "location": "The High Wold",
+  "description": "A longhorn breggle who jointly rules the High Wold with his younger half-brother Lord Malbleat.",
+  "notes": [
+    "The High Wold was split between him and Lord Malbleat approximately 20 years ago by Baron Hogwarsh."
+  ],
+  "connections": {
+    "locations": ["The High Wold"],
+    "npcs": ["Lord Malbleat", "Baron Hogwarsh"],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

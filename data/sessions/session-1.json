@@ -1,0 +1,45 @@
+{
+  "id": "session-1",
+  "name": "Session 1",
+  "subtitle": "The Road East",
+  "date": "Year 873, Simswald, Day 23, Chime",
+  "weather": "Blustery drizzle",
+  "summary": "The party gathered at Hornstoat's Rest in Lankshorn on a grey spring morning, where they met Llerg and learned of three recent disappearances \u2014 Emelda, Farnham Ribblemead, and Mabble \u2014 and rumors of strange pipe music in the eastern woods. They set out east along the Ditchway, finding Mabble's prayer beads en route. Following the pipe music, they discovered a ruined fort (suspected to be Droomen Knoll), killed four crookhorns in an ambush, with a fifth fleeing into the dungeon below, and afterward heard a cold breeze and strange sounds rising from beneath the ruins.",
+  "paragraphs": [
+    "The party was in Lankshorn when the session began, gathered inside Hornstoat's Rest on a grey, drizzling spring morning. Over drinks, they fell into conversation with Llerg, a breggle local, who filled them in on the recent disappearances: Emelda, a woman known around town for her lovely singing voice, had been missing for over a week; Farnham Ribblemead, a sage with a fondness for books, had vanished more recently after being seen reading a mysterious letter; and Mabble, the servant of Father Dobey at the Church of St. Pastery, had not been seen in three days. Rumors also spoke of strange pipe music drifting from the eastern woods, a sound people described as pulling at the heart. The party resolved to investigate, heading east to search for the music and, hopefully, those who had gone missing.",
+    "Before leaving, the group pooled their coin to buy a bow for Gwomotom, which would soon prove to be a worthy investment. As they prepared to depart, Gwomotom paused to consult a bird about what it might know of the disappearances.",
+    "They set out along the Ditchway \u2014 the road east, flanked by sandy banks and winding through beech forest. Gwomotom spotted wooden prayer beads left in the overgrown path, likely belonging to Mabble. Brother Henrick took them for safe keeping. The pipe music was first heard from the road, and the party followed the sound off the track until they came upon a ruined fort consisting of multiple towers \u2014 most collapsed to rubble, one still standing \u2014 an open archway, crumbling walls, and overgrowth crowding breaches in the rear wall. They suspect this may be Droomen Knoll.",
+    "Scouting the perimeter, the party identified four crookhorns in the courtyard, drunk, loud, and occupied with insulting fairies (the names Berk and Drogba were overheard). The group split to approach: Lucien and Gwomotom circled one side, Henrick held the road, and Tomkin and Jack shifted into their chester forms and crept quietly toward the courtyard.",
+    "Inside the courtyard, the grimalkins spotted a roaring campfire roasting meat on a spit, bedrolls scattered about, and the four crookhorns dancing and playing brass instruments in a raucous circle. Beneath it all, piping music threaded up from somewhere below the fort, weaving through the crookhorns' noise. Meanwhile, Lucien discovered a fifth crookhorn keeping watch in the single intact tower.",
+    "Jack was spotted, and the crookhorns marked him as meat and hurled a spear, which Jack deftly avoided before he retreated through the gaps in the overgrown wall into the trees. The party reconvened and plotted an ambush from several sides of the keep. Jack climbed toward the guard on the tower and attempted a backstab that fell just short. The ambush was on.",
+    "Henrick, Lucien, and Gwomotom perched in trees and unleashed a volley against the tower guard. Henrick and Lucien's slung stones went wide, but Gwomotom's arrows struck true. Tomkin entered the keep from the opposite side and drew out the crookhorns in the courtyard, ready to shift into wildling form. Jack found his mark mid-fight and landed a clean backstab on one of the exposed crookhorns. Tomkin, now a barely-visible, ferocious presence, tore through the crookhorns while the ranged cohort supported from afar, careful to avoid Tomkin, as in that state he could not reliably distinguish friend from foe. Four of the crookhorns were killed. The fifth fled down the stairs into the dungeon below the fort. The party is now considering collecting the horns to claim the bounty back in Lankshorn.",
+    "When the fighting ended and the courtyard fell quiet, something else made itself known. A cold breeze drifted up from below, reminiscent of the deep of winter. Through a gap in the rubble, the party could make out scat and hear faint squeaking sounds. Something waits below the ruins..."
+  ],
+  "npcs_introduced": [
+    "Llerg",
+    "Margery Stallowmead",
+    "Father Dobey",
+    "Emelda",
+    "Farnham Ribblemead",
+    "Mabble",
+    "Lord Malbleat",
+    "Lord Shadgore Ramius",
+    "Baron Hogwarsh"
+  ],
+  "locations_visited": [
+    "Hornstoat's Rest",
+    "Lankshorn",
+    "The Ditchway",
+    "Droomen Knoll"
+  ],
+  "quests_updated": [
+    "The Missing",
+    "Crookhorn Bounty"
+  ],
+  "mysteries_introduced": [
+    "What are the standing stones outside Lankshorn?",
+    "Where are Emelda, Farnham Ribblemead, and Mable? Is the pipe music responsible?",
+    "What is the source of the eerie piping from beneath the ruined fort?",
+    "What lurks below the ruined fort? What was the cold breeze?"
+  ]
+}

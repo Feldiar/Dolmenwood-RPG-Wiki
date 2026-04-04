@@ -1,0 +1,17 @@
+{
+  "id": "dreg",
+  "name": "Dreg",
+  "type": "Town",
+  "region": "The High Wold",
+  "first_seen": "session-1",
+  "description": "A town to the east of Lankshorn.",
+  "notes": [],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn", "The Ditchway"],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

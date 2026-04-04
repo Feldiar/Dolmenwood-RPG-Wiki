@@ -1,0 +1,20 @@
+{
+  "id": "lord-malbleat",
+  "name": "Lord Malbleat",
+  "aliases": ["Malbleat"],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Lord",
+  "location": "Redwraith Manor",
+  "description": "Rules the western portion of the High Wold from Redwraith Manor. Half-brother to Lord Shadgore Ramius.",
+  "notes": [
+    "Widely considered cruel and disliked in the region.",
+    "The High Wold was split between Malbleat and Shadgore Ramius approximately 20 years ago by Baron Hogwarsh."
+  ],
+  "connections": {
+    "locations": ["Redwraith Manor", "The High Wold"],
+    "npcs": ["Lord Shadgore Ramius", "Baron Hogwarsh"],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

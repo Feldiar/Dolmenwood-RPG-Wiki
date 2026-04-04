@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Party — Dolmenwood Campaign Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    #lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 9999;
+      cursor: zoom-out;
+      align-items: center;
+      justify-content: center;
+    }
+    #lightbox-overlay.active { display: flex; }
+    #lightbox-overlay img {
+      max-width: 92vw;
+      max-height: 92vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div class="layout">
+
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <a href="../index.html">Dolmenwood Campaign Wiki</a>
+    <span class="campaign-name">Dolmenwood</span>
+  </div>
+  <div class="sidebar-section">Party</div>
+  <a class="sidebar-item active" href="../pages/party.html">The Party</a>
+  <div class="sidebar-section">World</div>
+  <a class="sidebar-item" href="../pages/locations/index.html">Locations</a>
+  <a class="sidebar-item" href="../pages/factions/index.html">Factions</a>
+  <a class="sidebar-item" href="../pages/npcs/index.html">NPCs</a>
+  <div class="sidebar-section">Story</div>
+  <a class="sidebar-item" href="../pages/quests/index.html">Quests</a>
+  <a class="sidebar-item" href="../pages/loose-ends.html">Loose Ends, Rumors, and Misc.</a>
+  <div class="sidebar-section">Journal</div>
+  <a class="sidebar-item" href="../pages/sessions/session-1.html">Session 1 — The Road East</a>
+  <a class="sidebar-item" href="../pages/sessions/session-2.html">Session 2 — Below the Knoll</a>
+</nav>
+
+<main class="main">
+  <div class="main-inner">
+
+    <div class="page-header">
+      <div class="page-eyebrow">
+        <a href="../index.html">Home</a>
+        <span class="separator">›</span>
+        The Party
+      </div>
+      <h1 class="page-title">The Party</h1>
+    </div>
+
+    <p class="font-mono text-muted" style="margin-bottom:var(--space-lg);">Warden &nbsp;·&nbsp; Mike</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Character</th>
+          <th>Kindred</th>
+          <th>Class</th>
+          <th>Player</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><strong>Brother Henrick Tolmen</strong></td>
+        <td><span class="tag tag-kindred">Human</span></td>
+        <td>Friar</td>
+        <td>Jake</td>
+      </tr>
+      <tr>
+        <td><strong>Lucien "Trick-of-the-Light"</strong></td>
+        <td><span class="tag tag-kindred">Elf</span></td>
+        <td>Bard</td>
+        <td>Melissa</td>
+      </tr>
+      <tr>
+        <td><strong>Tomkin Cottonsocks</strong></td>
+        <td><span class="tag tag-kindred">Grimalkin</span></td>
+        <td>Knight</td>
+        <td>Nick</td>
+      </tr>
+      <tr>
+        <td><strong>Gwomotom Mugfoam</strong></td>
+        <td><span class="tag tag-kindred">Mossling</span></td>
+        <td>Hunter</td>
+        <td>Josh</td>
+      </tr>
+      <tr>
+        <td><strong>Jack Flippancy</strong></td>
+        <td><span class="tag tag-kindred">Grimalkin</span></td>
+        <td>Thief</td>
+        <td>Stevie</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+</main>
+
+</div>
+
+<div id="lightbox-overlay">
+  <img id="lightbox-img" src="" alt="Enlarged map view">
+</div>
+<script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var img     = document.getElementById('lightbox-img');
+    window.openLightbox = function(src) {
+      img.src = src;
+      overlay.classList.add('active');
+    };
+    overlay.addEventListener('click', function() {
+      overlay.classList.remove('active');
+      img.src = '';
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        img.src = '';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

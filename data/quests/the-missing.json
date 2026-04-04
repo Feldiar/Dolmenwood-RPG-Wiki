@@ -1,0 +1,24 @@
+{
+  "id": "the-missing",
+  "name": "The Missing",
+  "status": "active",
+  "first_seen": "session-1",
+  "description": "Three people have disappeared from Lankshorn, possibly connected to strange pipe music heard in the eastern woods. The music is said to pull powerfully at the heart of anyone who hears it.",
+  "objectives": [
+    "Find Emelda — missing for over a week. Known for her lovely singing voice; acted completely normally before vanishing.",
+    "Find Farnham Ribblemead — a sage who disappeared after reading a mysterious letter and entering the woods.",
+    "Find Mabble — RESOLVED. Father Dobey's servant was found unconscious in the dungeon beneath Droomen Knoll, held by crookhorns. He had followed the pipe music, been enchanted, and struck from behind. He was rescued and returned to Father Dobey's cottage."
+  ],
+  "leads": [
+    "Strange pipe music drifting from the eastern woods — people describe it as pulling at the heart.",
+    "Eerie piping was also heard from beneath Droomen Knoll. The source has not yet been located.",
+    "Mabble's prayer beads were found on the Ditchway.",
+    "Mabble reported he did not see or hear any other prisoners while held captive."
+  ],
+  "connections": {
+    "npcs": ["Emelda", "Farnham Ribblemead", "Mabble", "Father Dobey", "Llerg"],
+    "locations": ["Lankshorn", "The Ditchway", "Droomen Knoll", "Father Dobey's Cottage"],
+    "factions": []
+  },
+  "sessions": ["session-1", "session-2"]
+}

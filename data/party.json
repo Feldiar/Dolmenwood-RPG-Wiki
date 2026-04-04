@@ -1,0 +1,45 @@
+{
+  "warden": "Mike",
+  "members": [
+    {
+      "id": "brother-henrick-tolmen",
+      "name": "Brother Henrick Tolmen",
+      "aliases": ["Brother Henrick", "Henrick"],
+      "kindred": "Human",
+      "class": "Friar",
+      "player": "Jake"
+    },
+    {
+      "id": "lucien-trick-of-the-light",
+      "name": "Lucien \"Trick-of-the-Light\"",
+      "aliases": ["Lucien", "Trick-of-the-Light"],
+      "kindred": "Elf",
+      "class": "Bard",
+      "player": "Melissa"
+    },
+    {
+      "id": "tomkin-cottonsocks",
+      "name": "Tomkin Cottonsocks",
+      "aliases": ["Tomkin"],
+      "kindred": "Grimalkin",
+      "class": "Knight",
+      "player": "Nick"
+    },
+    {
+      "id": "gwomotom-mugfoam",
+      "name": "Gwomotom Mugfoam",
+      "aliases": ["Gwomotom"],
+      "kindred": "Mossling",
+      "class": "Hunter",
+      "player": "Josh"
+    },
+    {
+      "id": "jack-flippancy",
+      "name": "Jack Flippancy",
+      "aliases": [],
+      "kindred": "Grimalkin",
+      "class": "Thief",
+      "player": "Stevie"
+    }
+  ]
+}

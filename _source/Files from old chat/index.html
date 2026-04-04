@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dolmenwood Campaign Wiki</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --border: #e9e9e7;
+    --text: #37352f;
+    --text-muted: #9b9a97;
+    --text-light: #6b6b6b;
+    --accent: #7c6f5e;
+    --accent-light: #ede9e3;
+    --tag-green-bg: #edf3ec;
+    --tag-green: #447240;
+    --tag-orange-bg: #fdf3ec;
+    --tag-orange: #9f6b3c;
+    --tag-gray-bg: #f1f1ef;
+    --tag-gray: #787774;
+    --sidebar-w: 240px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Crimson Pro', Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: var(--sidebar-w);
+    min-height: 100vh;
+    background: #efede9;
+    border-right: 1px solid var(--border);
+    padding: 20px 0;
+    position: fixed;
+    top: 0; left: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 0 16px 12px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+  }
+
+  .sidebar-item {
+    display: block;
+    padding: 5px 16px;
+    font-size: 14px;
+    color: var(--text-light);
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 6px;
+    transition: background 0.1s;
+    cursor: pointer;
+    font-family: 'Crimson Pro', serif;
+  }
+
+  .sidebar-item:hover { background: rgba(0,0,0,0.05); color: var(--text); }
+  .sidebar-item.active { background: rgba(0,0,0,0.07); color: var(--text); font-weight: 600; }
+
+  .sidebar-section {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 14px 16px 4px;
+  }
+
+  .sidebar-sub {
+    padding-left: 28px;
+    font-size: 13px;
+  }
+
+  /* MAIN */
+  .main {
+    margin-left: var(--sidebar-w);
+    flex: 1;
+    max-width: 860px;
+    padding: 60px 80px 100px;
+  }
+
+  /* HEADER */
+  .doc-header {
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .doc-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }
+
+  .doc-title {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+
+  .doc-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .doc-meta-item {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .doc-meta-item span {
+    color: var(--text-light);
+  }
+
+  /* SECTION BLOCKS */
+  .part-header {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 48px 0 24px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .part-header::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 36px 0 16px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 28px 0 10px;
+    color: var(--text);
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 8px;
+    color: var(--text);
+  }
+
+  p { margin-bottom: 12px; }
+
+  /* SESSION TAG */
+  .session-tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background: var(--tag-gray-bg);
+    color: var(--tag-gray);
+    vertical-align: middle;
+    margin-left: 6px;
+    letter-spacing: 0.04em;
+    position: relative;
+    top: -2px;
+  }
+
+  .tag-active {
+    background: var(--tag-green-bg);
+    color: var(--tag-green);
+  }
+
+  .tag-suspected {
+    background: var(--tag-orange-bg);
+    color: var(--tag-orange);
+  }
+
+  /* TABLE */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 15px;
+  }
+
+  thead tr {
+    border-bottom: 1px solid var(--border);
+  }
+
+  th {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 400;
+    text-align: left;
+    padding: 8px 12px 8px 0;
+  }
+
+  td {
+    padding: 8px 12px 8px 0;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  .kindred-tag {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: var(--accent-light);
+    color: var(--accent);
+  }
+
+  /* LISTS */
+  ul, ol {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  li { margin-bottom: 5px; }
+
+  li strong { color: var(--text); }
+
+  /* LOCATION BLOCK */
+  .location-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin: 16px 0;
+  }
+
+  .location-block h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .location-block h4 {
+    font-size: 15px;
+    margin-top: 16px;
+    color: var(--accent);
+  }
+
+  /* NPC LIST */
+  .npc-list { list-style: none; padding: 0; }
+  .npc-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 15px;
+  }
+  .npc-list li:last-child { border-bottom: none; }
+
+  /* QUEST BLOCK */
+  .quest-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+
+  .quest-block h3 { margin-top: 0; font-size: 17px; }
+
+  /* MYSTERIES */
+  .mystery-list { list-style: none; padding: 0; }
+  .mystery-list li {
+    padding: 10px 14px;
+    margin-bottom: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  .mystery-list li::before {
+    content: '?';
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-right: 10px;
+  }
+
+  /* SESSION ENTRY */
+  .session-entry {
+    margin-top: 24px;
+  }
+
+  .session-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .session-meta-pill {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    background: var(--tag-gray-bg);
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  .session-body p {
+    font-size: 16.5px;
+    line-height: 1.75;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 32px 0;
+  }
+
+  .end-marker {
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    margin: 32px 0;
+  }
+
+  em { font-style: italic; color: var(--text-light); }
+  strong { font-weight: 600; }
+
+  /* SCROLLSPY active */
+  @media (max-width: 900px) {
+    .sidebar { display: none; }
+    .main { margin-left: 0; padding: 32px 24px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="sidebar-title">Dolmenwood</div>
+
+  <div class="sidebar-section">Part One</div>
+  <a class="sidebar-item active" href="#party">The Party</a>
+  <a class="sidebar-item" href="#locations">Locations</a>
+  <a class="sidebar-item sidebar-sub" href="#lankshorn">Lankshorn</a>
+  <a class="sidebar-item sidebar-sub" href="#drumen-knoll">Drumen Knoll</a>
+  <a class="sidebar-item sidebar-sub" href="#other-locations">Other Locations</a>
+  <a class="sidebar-item" href="#factions">Factions</a>
+  <a class="sidebar-item" href="#quests">Quests & Rumors</a>
+  <a class="sidebar-item" href="#mysteries">Open Threads</a>
+
+  <div class="sidebar-section">Part Two</div>
+  <a class="sidebar-item" href="#session1">Session 1</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+
+  <div class="doc-header">
+    <div class="doc-eyebrow">Tabletop RPG · Wiki</div>
+    <h1 class="doc-title">Dolmenwood Campaign</h1>
+    <div class="doc-meta">
+      <div class="doc-meta-item">GM <span>Mike</span></div>
+      <div class="doc-meta-item">System <span>Dolmenwood RPG</span></div>
+      <div class="doc-meta-item">Started <span>Year 873, Simswald</span></div>
+    </div>
+  </div>
+
+  <!-- PART ONE -->
+  <div class="part-header" id="part1">Part One — What We Know</div>
+
+  <!-- THE PARTY -->
+  <h2 id="party">The Party</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Character</th>
+        <th>Kindred</th>
+        <th>Class</th>
+        <th>Player</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Brother Henrick Tolmen</strong></td>
+        <td><span class="kindred-tag">Human</span></td>
+        <td>Friar</td>
+        <td>Jake</td>
+      </tr>
+      <tr>
+        <td><strong>Lucien "Trick-of-the-Light"</strong></td>
+        <td><span class="kindred-tag">Elf</span></td>
+        <td>Bard</td>
+        <td>Melissa</td>
+      </tr>
+      <tr>
+        <td><strong>Tomkin Cottonsocks</strong></td>
+        <td><span class="kindred-tag">Grimalkin</span></td>
+        <td>Knight</td>
+        <td>Nick</td>
+      </tr>
+      <tr>
+        <td><strong>Gwomotom Mugfoam</strong></td>
+        <td><span class="kindred-tag">Mossling</span></td>
+        <td>Hunter</td>
+        <td>Josh</td>
+      </tr>
+      <tr>
+        <td><strong>Jack Flippancy</strong></td>
+        <td><span class="kindred-tag">Grimalkin</span></td>
+        <td>Thief</td>
+        <td>Stevie</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- LOCATIONS -->
+  <h2 id="locations">Locations</h2>
+
+  <div class="location-block" id="lankshorn">
+    <h3>Lankshorn <span class="session-tag">Session 1</span></h3>
+    <p>A market town in the High Wold with a population of humans, breggles, and people of mixed human and breggle parentage. The party is currently based here.</p>
+    <ul>
+      <li>The town has an inn (<strong>Hornstoat's Rest</strong>), a bladesmith, and an apothecary.</li>
+      <li><strong>Dreg</strong> (a town) lies to the East; <strong>Redwraith Manor</strong> lies to the North.</li>
+      <li>A <strong>ring of standing stones</strong> sits on a hill just outside of town, with no path leading to it.</li>
+      <li>The <strong>Moot</strong> (Market Day) is in 2 days.</li>
+    </ul>
+
+    <h4>The Church of St. Pastery <span class="session-tag">Session 1</span></h4>
+    <p>The Pluritine Church's representation in Lankshorn. Built from antique stone with a tall steeple and carved gargoyles and angels in conflict. The exterior is dramatic and imposing; the interior is plain and unadorned.</p>
+    <ul>
+      <li>A <strong>wooden statue of St. Pastery</strong> stands inside, depicted holding a shovel and cleaver.</li>
+      <li><strong>Father Dobey</strong> serves as priest. He carries a gold holy symbol and is troubled by the disappearance of his servant, Mable, three days ago.</li>
+    </ul>
+
+    <h4>Notable NPCs</h4>
+    <ul class="npc-list">
+      <li><strong>Margery Stallowmead</strong> <span class="session-tag">S1</span> — Proprietor of Hornstoat's Rest. Has 3 sons and 1 daughter; her daughter is part human, part breggle.</li>
+      <li><strong>Llerg</strong> <span class="session-tag">S1</span> — A breggle who shared a drink with the party at the inn.</li>
+      <li><strong>Father Dobey</strong> <span class="session-tag">S1</span> — Priest of the Church of St. Pastery. His servant Mable vanished three days ago.</li>
+      <li><strong>Constable and Burgomaster</strong> <span class="session-tag">S1</span> — Local authorities. Offering a bounty for killing crookhorns.</li>
+    </ul>
+  </div>
+
+  <div class="location-block" id="drumen-knoll">
+    <h3>Drumen Knoll <span class="session-tag tag-suspected">Suspected — Session 1</span></h3>
+    <p>A ruined fort to the east of Lankshorn, along the Ditchway, suspected to be Drumen Knoll. The party investigated and cleared it of crookhorns during Session 1. The site has multiple towers, only one of which is still standing. Much of the structure is rubble, with an open archway and crumbling walls. The rear wall has breaches choked by overgrowth, accessible to smaller folk.</p>
+    <ul>
+      <li>Strange pipe music was heard emanating from somewhere <strong>beneath</strong> the keep.</li>
+      <li>After the fight, a <strong>cold breeze rose from below</strong>, and through a hole in the rubble, scat and squeaking sounds suggested something still lurks under the fort.</li>
+    </ul>
+  </div>
+
+  <h2 id="other-locations">Other Locations</h2>
+
+  <div class="location-block">
+    <h3>Redwraith Manor <span class="session-tag">Session 1</span></h3>
+    <p>Located to the north of Lankshorn, this is the seat of <strong>Lord Malbleat</strong>. He is widely considered cruel and disliked in the region.</p>
+  </div>
+
+  <div class="location-block">
+    <h3>The High Wold <span class="session-tag">Session 1</span></h3>
+    <p>A territory jointly ruled by <strong>Lord Shadgore Ramius</strong> — a longhorn breggle — and his younger half-brother <strong>Lord Malbleat</strong>. The land was split between them approximately 20 years ago by <strong>Baron Hogwarsh</strong>.</p>
+  </div>
+
+  <div class="location-block">
+    <h3>Bogways <span class="session-tag">Session 1</span></h3>
+    <p>The only reliable place in the area to stable animals. Carries <strong>Nippers</strong> (fermented catnip), the favored drink of the Grimalkin.</p>
+  </div>
+
+  <div class="location-block">
+    <h3>The Ditchway <span class="session-tag">Session 1</span></h3>
+    <p>The main road east out of Lankshorn. Sandy banks line either side, and it passes through a beech forest. Eyeless worms up to 6 feet long have been spotted along the road — immature nightworm spawn.</p>
+  </div>
+
+  <div class="location-block">
+    <h3>Dreg <span class="session-tag">Session 1</span></h3>
+    <p>A town to the east of Lankshorn.</p>
+  </div>
+
+  <div class="location-block">
+    <h3>The Abbey <span class="session-tag">Session 1</span></h3>
+    <p>Something significant happened here approximately 250 years ago, after which the Abbey <strong>cannot be entered</strong>. Shrines in the surrounding woods are connected to this history.</p>
+  </div>
+
+  <!-- FACTIONS -->
+  <h2 id="factions">Factions &amp; Groups</h2>
+  <div class="location-block">
+    <h3>Crookhorns <span class="session-tag">Session 1</span></h3>
+    <p>Corrupted breggles. Dangerous and predatory. A nest of five was discovered and killed at the ruined fort: <strong>Berk</strong>, <strong>Drogba</strong>, two unnamed by the fire, and a fifth in the remaining tower.</p>
+  </div>
+
+  <!-- QUESTS -->
+  <h2 id="quests">Quests &amp; Rumors</h2>
+
+  <div class="quest-block">
+    <h3>The Missing <span class="session-tag tag-active">Active</span> <span class="session-tag">Session 1</span></h3>
+    <p>Three people have disappeared, possibly connected to <strong>strange pipe music heard in the eastern woods</strong>. The music is said to pull powerfully at the heart of anyone who hears it.</p>
+    <ol>
+      <li><strong>Emelda</strong> — Missing for over a week. Known for her lovely singing voice, not known for travelling; acted completely normally before she vanished.</li>
+      <li><strong>Farnham Ribbleweed</strong> — A sage and lover of books. Was seen reading a letter that may have prompted him to enter the woods, after which he disappeared under similar circumstances to Emelda.</li>
+      <li><strong>Mable</strong> — Father Dobey's servant. Short, portly, white-haired. Vanished three days ago. Spherical wooden prayer beads found on the Ditchway may belong to him; Henrick is holding onto them.</li>
+    </ol>
+  </div>
+
+  <div class="quest-block">
+    <h3>Crookhorn Bounty <span class="session-tag tag-active">Active</span> <span class="session-tag">Session 1</span></h3>
+    <p>The Constable and Burgomaster are offering a bounty for killing crookhorns. The party killed five at the ruined fort and is considering returning to Lankshorn with the horns as proof.</p>
+  </div>
+
+  <div class="quest-block">
+    <h3>Rumors</h3>
+    <ul>
+      <li><em>Shared by Lucien, Session 1:</em> A statue of <strong>St. Nuncy the Wretched</strong> — a minor saint associated with the downtrodden — once existed somewhere in the region, but was lost centuries ago.</li>
+    </ul>
+  </div>
+
+  <!-- MYSTERIES -->
+  <h2 id="mysteries">Open Threads &amp; Mysteries</h2>
+  <ul class="mystery-list">
+    <li>What happened at the <strong>Abbey 250 years ago</strong>? Why can't it be entered?</li>
+    <li>What are the <strong>standing stones</strong> outside Lankshorn?</li>
+    <li>Where are <strong>Emelda, Farnham Ribbleweed, and Mable</strong>? Is the pipe music responsible?</li>
+    <li>What is the source of the <strong>eerie piping from beneath the ruined fort</strong>?</li>
+    <li>What lurks <strong>below the ruined fort</strong>? What was the cold breeze?</li>
+  </ul>
+
+  <!-- PART TWO -->
+  <div class="part-header" id="part2">Part Two — Session Journal</div>
+
+  <div class="session-entry" id="session1">
+    <h2>Session 1 — <em>The Road East</em></h2>
+    <div class="session-meta">
+      <span class="session-meta-pill">Year 873 · Simswald · Day 23 · Chime</span>
+      <span class="session-meta-pill">🌧 Blustery drizzle</span>
+    </div>
+
+    <div class="session-body">
+      <p>The party was in Lankshorn when the session began, gathered inside Hornstoat's Rest on a grey, drizzling spring morning. Over drinks, they fell into conversation with Llerg, a breggle local, who filled them in on the recent disappearances: Emelda, a woman known around town for her lovely singing voice, had been missing for over a week; Farnham Ribbleweed, a sage with a fondness for books, had vanished more recently after being seen reading a mysterious letter; and Mable, the servant of Father Dobey at the Church of St. Pastery, had not been seen in three days. Rumors also spoke of strange pipe music drifting from the eastern woods, a sound people described as pulling at the heart. The party resolved to investigate, heading east to search for the music and, hopefully, those who had gone missing.</p>
+
+      <p>Before leaving, the group pooled their coin to buy a bow for Gwomotom, which would soon prove to be a worthy investment. As they prepared to depart, Gwomotom paused to consult a bird about what it might know of the disappearances.</p>
+
+      <p>They set out along the Ditchway — the road east, flanked by sandy banks and winding through beech forest. Gwomotom spotted wooden prayer beads left in the overgrown path, likely belonging to Mable. Brother Henrick took them for safe keeping. The pipe music was first heard from the road, and the party followed the sound off the track until they came upon a ruined fort consisting of multiple towers — most collapsed to rubble, one still standing — an open archway, crumbling walls, and overgrowth crowding breaches in the rear wall. They suspect this may be Drumen Knoll.</p>
+
+      <p>Scouting the perimeter, the party identified four crookhorns in the courtyard, drunk, loud, and occupied with insulting fairies (the names Berk and Drogba were overheard). The group split to approach: Lucien and Gwomotom circled one side, Henrick held the road, and Tomkin and Jack shifted into their chester forms and crept quietly toward the courtyard.</p>
+
+      <p>Inside the courtyard, the grimalkin spotted a roaring campfire roasting meat on a spit, bedrolls scattered about, and the four crookhorns dancing and playing brass instruments in a raucous circle. Beneath it all, piping music threaded up from somewhere below the fort, weaving through the crookhorns' noise. Meanwhile, Lucien discovered a fifth crookhorn keeping watch in the single intact tower.</p>
+
+      <p>Jack was spotted, and the crookhorns marked him as meat and hurled a spear, which Jack deftly avoided before he retreated through the gaps in the overgrown wall into the trees. The party reconvened and plotted an ambush from several sides of the keep. Jack climbed toward the guard on the tower and attempted a backstab that fell just short. The ambush was on.</p>
+
+      <p>Henrick, Lucien, and Gwomotom perched in trees and unleashed a volley against the tower guard. Henrick and Lucien's slung stones went wide, but Gwomotom's arrows struck true. Tomkin entered the keep from the opposite side and drew out the crookhorns in the courtyard, ready to shift into wildling form. Jack found his mark mid-fight and landed a clean backstab on one of the exposed crookhorns. Tomkin, now a barely-visible, ferocious presence, tore through the crookhorns while the ranged cohort supported from afar, careful to avoid Tomkin, as in that state he could not reliably distinguish friend from foe. All five crookhorns were eventually killed. The party is now considering collecting the horns to claim the bounty back in Lankshorn.</p>
+
+      <p>When the fighting ended and the courtyard fell quiet, something else made itself known. A cold breeze drifted up from below, reminiscent of the deep of winter. Through a gap in the rubble, the party could make out scat and hear faint squeaking sounds. Something waits below the ruins…</p>
+    </div>
+
+    <hr class="divider">
+    <div class="end-marker">— End of Session 1 —</div>
+  </div>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "droomen-knoll",
+  "name": "Droomen Knoll",
+  "type": "Ruin",
+  "region": "The Ditchway",
+  "first_seen": "session-1",
+  "description": "A ruined fort to the east of Lankshorn, along the Ditchway. The site has multiple towers, only one of which is still standing. Much of the structure is rubble, with an open archway and crumbling walls. The rear wall has breaches choked by overgrowth, accessible to smaller folk. Strange pipe music drifts up from beneath the ruins.",
+  "notes": [
+    "Four crookhorns were killed here in Session 1: Berk, Drogba, and two unnamed. A fifth — the rabid crookhorn — fled down the stairs into the dungeon.",
+    "After returning on the second day (Hayme, 24th of Simswald), the party found fresh puncture wounds in the breggle corpses from the day before. Someone had been through after them.",
+    "The pipe music continues to play from somewhere beneath the ruins. The source has not yet been located."
+  ],
+  "underground_passages": {
+    "notes": [
+      "A staircase descends from the courtyard, turning 90 degrees into the dark. The corridor below has worn flagstones and damp stone walls.",
+      "First room: a two-headed, chicken-like mutant creature was found tied by a rope to the far wall. Now dead; Gwomotom harvested the corpse. Faded frescoes line the walls — white humanoid silhouettes in an icy forest, identified by Lucien as frost elves associated with the Cold Prince.",
+      "A hallway branches from the first room and leads to a four-way intersection. The pipe music appears to originate from beyond this intersection.",
+      "The storage room lies beyond a door in the first room. It contained a ring of candles, crookhorn bedding, and crates. The rabid crookhorn (the one that fled Session 1) and a one-horned crookhorn were killed here. The candles produce thick orange smoke.",
+      "Mabble was found unconscious in the storage room; a trapped chest nearby contained coin, two gold-and-amber bracelets, and a Gaff letter.",
+      "On the second visit, a secret door was discovered in the storage room, hidden behind a high stack of crates — unnoticed the day before. A hidden button triggers a section of wall to swing open.",
+      "Beyond the secret door: a short hallway beset by magical snowfall. No tracks in the snow.",
+      "The snow hallway leads to a chamber containing a raised stone pool, frozen solid. Stag skull carvings decorate the basin's exterior; glittering lights shimmer beneath the ice. Snow falls constantly from the ceiling. The walls bear long-faded frescoes. A chalice of great beauty is visible beneath the ice, with an air bubble caught inside it. A legend speaks of such a pool — fairy ice and mortal blood. The party resealed the chamber and left it undisturbed."
+    ]
+  },
+  "map_image": "Droomen Knoll Dungeon Map 1.png",
+  "npcs": ["Brennan"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["The Ditchway", "Lankshorn"],
+    "factions": ["Crookhorns"],
+    "quests": ["The Missing", "Crookhorn Bounty", "The Crooked Constable"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

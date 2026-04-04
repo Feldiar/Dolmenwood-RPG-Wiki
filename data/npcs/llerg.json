@@ -1,0 +1,23 @@
+{
+  "id": "llerg",
+  "name": "Llerg",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-1",
+  "occupation": "Hunter",
+  "kindred": "Breggle",
+  "location": "Hornstoat's Rest",
+  "description": "A breggle hunter who frequents Hornstoat's Rest in Lankshorn. Sells meat to Bogways. Can read Gaff, the Breggle language.",
+  "notes": [
+    "Filled the party in on recent disappearances: Emelda, Farnham Ribblemead, and Mabble.",
+    "Spoke of the strange pipe music drifting from the eastern woods.",
+    "Translated the Gaff letter found in Droomen Knoll, which revealed Constable Sidney Wolder to be a spy for the Nag-Lord. Was troubled by what it said.",
+    "Bribed with gold by the party to keep quiet about the letter. The party also attempted to charm him; it didn't take."
+  ],
+  "connections": {
+    "locations": ["Hornstoat's Rest", "Lankshorn"],
+    "npcs": ["Emelda", "Farnham Ribblemead", "Mabble"],
+    "quests": ["The Missing", "The Crooked Constable"]
+  },
+  "sessions": ["session-1", "session-2"]
+}

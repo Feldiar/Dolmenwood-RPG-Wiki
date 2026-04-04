@@ -1,0 +1,17 @@
+{
+  "id": "redwraith-manor",
+  "name": "Redwraith Manor",
+  "type": "Manor",
+  "region": "The High Wold",
+  "first_seen": "session-1",
+  "description": "Located to the north of Lankshorn, this is the seat of Lord Malbleat. He is widely considered cruel and disliked in the region.",
+  "notes": [],
+  "npcs": ["Lord Malbleat"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn", "The High Wold"],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-1"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "the-ditchway",
+  "name": "The Ditchway",
+  "type": "Road",
+  "region": "The High Wold",
+  "first_seen": "session-1",
+  "description": "The main road east out of Lankshorn. Sandy banks line either side, and it passes through a beech forest.",
+  "notes": [
+    "Eyeless worms up to 6 feet long have been spotted along the road — immature nightworm spawn.",
+    "Mabble's wooden prayer beads were found here by Gwomotom."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn", "Droomen Knoll", "Dreg"],
+    "factions": [],
+    "quests": ["The Missing"]
+  },
+  "sessions": ["session-1"]
+}

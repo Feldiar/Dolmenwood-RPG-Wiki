@@ -1,0 +1,21 @@
+{
+  "id": "the-constabulary",
+  "name": "The Constabulary",
+  "type": "Building",
+  "region": "Lankshorn",
+  "first_seen": "session-2",
+  "description": "A wood and stone building in Lankshorn. A breggle clerk in red leather armor with a horned helmet mans the front desk.",
+  "notes": [
+    "Constable Sidney Wolder met the party here in a back room. He paid out the crookhorn bounty and advised them not to return to Droomen Knoll — then suggested they seek out Sgt. Marge Bregson if they wanted support.",
+    "The party sought official backing for their return to Droomen Knoll and were not taken seriously.",
+    "Sgt. Marge Bregson operates here; she reluctantly agreed to send Brennan with the party as an informant."
+  ],
+  "npcs": ["Constable Sidney Wolder", "Sgt. Marge Bregson", "Brennan"],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "factions": ["Crookhorns"],
+    "quests": ["The Crooked Constable", "Crookhorn Bounty"]
+  },
+  "sessions": ["session-2"]
+}

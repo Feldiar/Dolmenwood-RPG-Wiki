@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "the-abbey",
+      "title": "The Abbey",
+      "content": "Something significant happened at the Abbey approximately 250 years ago, after which it cannot be entered. Shrines in the surrounding woods are connected to this history.",
+      "source": "session-1"
+    },
+    {
+      "id": "statue-of-st-nuncy",
+      "title": "Statue of St. Nuncy the Wretched",
+      "content": "Shared by Lucien in Session 1: a statue of St. Nuncy the Wretched — a minor saint associated with the downtrodden — once existed somewhere in the region, but was lost centuries ago.",
+      "source": "session-1"
+    },
+    {
+      "id": "frost-elves-and-cold-prince",
+      "title": "The Cold Prince and the Frost Elves",
+      "content": "Frescoes in the dungeon beneath Droomen Knoll depict white humanoid silhouettes in an icy forest. Lucien identified them as frost elves, associated with the Cold Prince. Their connection to the ruins is unknown.",
+      "source": "session-2"
+    },
+    {
+      "id": "the-frozen-pool",
+      "title": "The Frozen Pool",
+      "content": "A raised stone pool in the deepest explored chamber beneath Droomen Knoll — frozen solid, with stag skull carvings on the basin and snow falling from the ceiling. A chalice of great beauty is visible beneath the ice, with an air bubble inside. A legend speaks of such a pool and its chalice, bound up in fairy ice and mortal blood. The party resealed the chamber and left it undisturbed.",
+      "source": "session-2"
+    },
+    {
+      "id": "king-pusskin",
+      "title": "King Pusskin",
+      "content": "Mentioned by Sgt. Marge Bregson: rumours of a King Pusskin to the south. No further details known.",
+      "source": "session-2"
+    },
+    {
+      "id": "nightworms",
+      "title": "Nightworms",
+      "content": "Gwomotom knows that nightworms grow large, live in underground tunnels, are edible, but can constrict and eat a person. Immature spawn were spotted on the Ditchway in Session 1.",
+      "source": "session-2"
+    }
+  ]
+}
