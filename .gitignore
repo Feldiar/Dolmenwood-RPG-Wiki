@@ -1,0 +1,5 @@
+# Claude context file — local only, not served by GitHub Pages
+CLAUDE.md
+
+# macOS
+.DS_Store
