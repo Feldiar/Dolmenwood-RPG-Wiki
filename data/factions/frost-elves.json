@@ -1,0 +1,27 @@
+{
+  "id": "frost-elves",
+  "name": "Frost Elves",
+  "status": "inactive",
+  "first_seen": "session-2",
+  "description": "Ancient elves associated with the Cold Prince and his estranged brother Prince Mallowheart. Frescoes and murals depicting them are found throughout the dungeon beneath Droomen Knoll. Their homeland, Frigia, has been sealed by the Drune using the Ring of Chel.",
+  "notes": [
+    "Frescoes of white humanoid silhouettes in icy forests were found in the first room of Droomen Knoll dungeon in Session 2, identified by Lucien as frost elves.",
+    "Six murals in the feasting hall beneath Droomen Knoll depict members of the frost elf court: Prince Mallowheart (Seven-Past-Noon), Sir Dawn-Neverblooms, Lady Silver-So-Mirrored, Lord Slumberbane, Whisper-Of-Candlelight, and Famine-Whistles-Whither.",
+    "Their homeland Frigia is sealed by the Drune's Ring of Chel. Thinwhistle, a frost elf imprisoned beneath Droomen Knoll, seeks to reopen it.",
+    "The Drune allied with the Pluritine Church and the nobility to hold the Cold Prince and the frost elves at bay."
+  ],
+  "known_members": [
+    "Prince Mallowheart",
+    "Thinwhistle",
+    "Sir Dawn-Neverblooms",
+    "Lady Silver-So-Mirrored",
+    "Lord Slumberbane",
+    "Whisper-Of-Candlelight"
+  ],
+  "connections": {
+    "locations": ["Droomen Knoll", "Frigia"],
+    "npcs": ["Prince Mallowheart", "Thinwhistle"],
+    "quests": ["The Frozen Court"]
+  },
+  "sessions": ["session-2", "session-3"]
+}

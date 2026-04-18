@@ -1,0 +1,21 @@
+{
+  "id": "blossom-fields",
+  "name": "Blossom Fields",
+  "type": "Fairy Domain",
+  "region": "Fairy",
+  "first_seen": "session-3",
+  "description": "The fairy domain of Princess Andromethia, characterized by rolling farmland, hills, and meadows that instill a feeling close to ecstasy in visitors. Its inhabitants are half-elf and half-satyr.",
+  "notes": [
+    "Lucien was transported here in Session 3 and remained for five days, unable or unwilling to leave.",
+    "Princess Andromethia also holds lands in the mortal realm, somewhere in the south of Dolmenwood."
+  ],
+  "npcs": ["Princess Andromethia"],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": [],
+    "npcs": ["Princess Andromethia"],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

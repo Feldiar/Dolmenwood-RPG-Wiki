@@ -1,0 +1,22 @@
+{
+  "id": "princess-andromethia",
+  "name": "Princess Andromethia",
+  "aliases": ["Andromethia"],
+  "status": "active",
+  "first_seen": "session-3",
+  "occupation": "Fairy Princess",
+  "kindred": "Fairy",
+  "location": "Blossom Fields",
+  "description": "A kind fairy princess whose domain, the Blossom Fields, is populated by creatures half-elf and half-satyr. Her lands of hills and meadows instill a feeling close to ecstasy. Lucien was drawn into her realm in Session 3 and did not return for five days.",
+  "notes": [
+    "Lucien was taken to her Blossom Fields in Session 3 and remained there for five days.",
+    "Holds lands in the mortal realm as well, somewhere in the south of Dolmenwood."
+  ],
+  "connections": {
+    "locations": ["Blossom Fields"],
+    "npcs": [],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "drune",
+  "name": "Drune",
+  "status": "active",
+  "first_seen": "session-3",
+  "description": "An order of sorcerers who long ago allied with the Pluritine Church and the nobility to hold the Cold Prince and his frost elves at bay. Their old alliances have faltered, and they are now known to many as the heretical \"Hooded Men.\" Despite their fallen reputation, the Drune remain active.",
+  "notes": [
+    "Created the Ring of Chel, a ring of standing stones used to seal the frost elves' homeland of Frigia.",
+    "Also imprisoned wood gods who preceded the frost elves in Dolmenwood, out of jealousy for their power.",
+    "The dead man found in the dungeon beneath Droomen Knoll wore a cloak with Drune markings, suggesting Drune presence in or around the ruins."
+  ],
+  "known_members": [],
+  "connections": {
+    "locations": ["Droomen Knoll", "Frigia"],
+    "npcs": [],
+    "quests": ["The Frozen Court"]
+  },
+  "sessions": ["session-3"]
+}

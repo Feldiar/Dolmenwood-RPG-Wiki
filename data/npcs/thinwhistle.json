@@ -1,0 +1,29 @@
+{
+  "id": "thinwhistle",
+  "name": "Thinwhistle",
+  "aliases": ["Famine-Whistles-Whither"],
+  "status": "active",
+  "first_seen": "session-3",
+  "occupation": "Unknown",
+  "kindred": "Frost Elf",
+  "location": "Unknown",
+  "description": "A frost elf of the old court, known by his true name Famine-Whistles-Whither and by the nickname Thinwhistle. White-haired, frail, and black-eyed, with an erratic manner and a constant companion in his off-white pan pipes. He was imprisoned in the cells beneath Droomen Knoll by Prince Mallowheart as punishment for killing and eating three of Mallowheart's hounds. The party freed him in Session 3.",
+  "notes": [
+    "Depicted in the sixth mural of the feasting hall beneath Droomen Knoll, shown with a silver flute and three blood-red hounds — the hounds appearing to have been added to the image at a later date.",
+    "Sentenced by Prince Mallowheart for killing and eating hounds belonging to the Prince. Holds no affection for Mallowheart — called his mercy \"poppycock.\"",
+    "Before his imprisonment, witnessed creatures he believed to be crookhorns — things tainted by terrible magic — passing through the dungeon.",
+    "Proposed a bargain: in exchange for his freedom, he would share knowledge of a fairy door to the west capable of moving travelers great distances through Dolmenwood. The clearing of rat skulls at the wood's western edge is the entry point; the road beyond leads elsewhere in Dolmenwood. Fairy kingdom entrances on either side of the road require invitations.",
+    "Wants to see the barrier to Frigia reopened. The homeland of the frost elves was sealed by the Drune with the Ring of Chel. Told the party that where the waters of Naon fall from great heights, where the watchers wait, passage may be possible.",
+    "Mentioned wood gods who preceded the frost elves in Dolmenwood and were imprisoned by the Drune out of jealousy for their power.",
+    "Told the party the chalice is an heirloom of Prince Mallowheart.",
+    "Speaks Sylvan. Spoke privately with Lucien in Sylvan during their meeting; the content was not shared with the rest of the party.",
+    "Before departing, left a cryptic message in the minds of the party: \"Where Naon's waters veil the stone, a starving court still dines alone. Nine hundred years on sugared lies, when last they drink, the last one dies. I cannot go. The watchers wait, root and horn beside the gate. But you may pass where I am banned, warm-breathed ghosts in fey-touched land.\""
+  ],
+  "connections": {
+    "locations": ["Droomen Knoll", "Frigia"],
+    "npcs": ["Prince Mallowheart"],
+    "factions": ["Frost Elves"],
+    "quests": ["The Frozen Court"]
+  },
+  "sessions": ["session-3"]
+}

@@ -7,6 +7,7 @@
       "aliases": ["Brother Henrick", "Henrick"],
       "kindred": "Human",
       "class": "Friar",
+      "level": 2,
       "player": "Jake"
     },
     {
@@ -15,6 +16,7 @@
       "aliases": ["Lucien", "Trick-of-the-Light"],
       "kindred": "Elf",
       "class": "Bard",
+      "level": 3,
       "player": "Melissa"
     },
     {
@@ -23,6 +25,7 @@
       "aliases": ["Tomkin"],
       "kindred": "Grimalkin",
       "class": "Knight",
+      "level": 2,
       "player": "Nick"
     },
     {
@@ -31,6 +34,7 @@
       "aliases": ["Gwomotom"],
       "kindred": "Mossling",
       "class": "Hunter",
+      "level": 2,
       "player": "Josh"
     },
     {
@@ -39,6 +43,7 @@
       "aliases": [],
       "kindred": "Grimalkin",
       "class": "Thief",
+      "level": 3,
       "player": "Stevie"
     }
   ]

@@ -1,0 +1,26 @@
+{
+  "id": "prince-mallowheart",
+  "name": "Prince Mallowheart",
+  "aliases": ["Mallowheart", "Prince Seven-Past-Noon"],
+  "status": "active",
+  "first_seen": "session-3",
+  "occupation": "Frost Elf Prince",
+  "kindred": "Frost Elf",
+  "location": "Unknown",
+  "description": "A frost elf prince and estranged brother of the Cold Prince. Depicted in a bas-relief and in the first mural of the feasting hall beneath Droomen Knoll: a bitter-faced elf in heavy furs, crowned with thorns set with gems. His mural names him Prince Seven-Past-Noon. The chalice retrieved from the frozen pool is said to be his heirloom.",
+  "notes": [
+    "Estranged brother of the Cold Prince.",
+    "A bas-relief of his likeness stands behind the frost-coated sundial in the left passage beneath Droomen Knoll. The inscription on the sundial invokes his mercy: \"On the slow creep of aeons, Mallow-heart's mercy may shine.\"",
+    "Depicted first in the feasting hall murals, labeled Prince Seven-Past-Noon.",
+    "Sentenced Thinwhistle to imprisonment in the cells beneath Droomen Knoll for killing and eating three of his hounds.",
+    "The chalice recovered from the frozen pool beneath Droomen Knoll is an heirloom of Mallowheart.",
+    "The inscription in the empty cell reads: \"Mallowheart be cursed; hound baker Thinwhistle be doubly cursed.\""
+  ],
+  "connections": {
+    "locations": ["Droomen Knoll", "Frigia"],
+    "npcs": ["Thinwhistle"],
+    "factions": ["Frost Elves"],
+    "quests": ["The Frozen Court"]
+  },
+  "sessions": ["session-3"]
+}

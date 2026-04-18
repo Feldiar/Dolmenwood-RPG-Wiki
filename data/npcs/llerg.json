@@ -6,18 +6,21 @@
   "first_seen": "session-1",
   "occupation": "Hunter",
   "kindred": "Breggle",
-  "location": "Hornstoat's Rest",
-  "description": "A breggle hunter who frequents Hornstoat's Rest in Lankshorn. Sells meat to Bogways. Can read Gaff, the Breggle language.",
+  "location": "High Hankle",
+  "description": "A breggle hunter who frequents Hornstoat's Rest in Lankshorn. Sells meat to Bogways. Can read Gaff, the breggle language.",
   "notes": [
     "Filled the party in on recent disappearances: Emelda, Farnham Ribblemead, and Mabble.",
     "Spoke of the strange pipe music drifting from the eastern woods.",
     "Translated the Gaff letter found in Droomen Knoll, which revealed Constable Sidney Wolder to be a spy for the Nag-Lord. Was troubled by what it said.",
-    "Bribed with gold by the party to keep quiet about the letter. The party also attempted to charm him; it didn't take."
+    "Bribed with gold by the party to keep quiet about the letter. The party also attempted to charm him; it didn't take.",
+    "In Session 3, approached Jack and Henrick at Hornstoat's Rest seeking more bribe money. Had been roughed up at the Bogways by a group of pro-Ramius breggles: Marialla, James, and Fisk. These three are almost certainly affiliated with the crookhorn conspiracy.",
+    "Paid forty gold by the party to travel south to High Hankle and lie low for a few weeks. Mentioned a shrine to Pusskin on the road south — milk is the correct offering for those seeking its favor.",
+    "Noted that the Hlerribuck breggle festival falls on the fourth of Parchment."
   ],
   "connections": {
-    "locations": ["Hornstoat's Rest", "Lankshorn"],
+    "locations": ["Hornstoat's Rest", "Lankshorn", "High Hankle", "Bogways"],
     "npcs": ["Emelda", "Farnham Ribblemead", "Mabble"],
     "quests": ["The Missing", "The Crooked Constable"]
   },
-  "sessions": ["session-1", "session-2"]
+  "sessions": ["session-1", "session-2", "session-3"]
 }

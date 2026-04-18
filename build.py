@@ -149,6 +149,7 @@ def sidebar_html(active_section=None, depth=1):
         section("Journal"),
         item("Session 1 — The Road East", "pages/sessions/session-1.html", "sessions"),
         item("Session 2 — Below the Knoll", "pages/sessions/session-2.html", "sessions"),
+        item("Session 3 — The Prisoner", "pages/sessions/session-3.html", "sessions"),
         '</nav>',
     ]
     return "\n".join(lines)
@@ -339,11 +340,14 @@ def build_party(data, link_map):
     LP = "../"   # link prefix: 1 level deep
     rows = ""
     for m in data["party"]["members"]:
+        level = m.get("level", "")
+        level_html = f'<span class="font-mono" style="font-size:13px;">{level}</span>' if level != "" else ""
         rows += f"""
       <tr>
         <td><strong>{m["name"]}</strong></td>
         <td><span class="tag tag-kindred">{m["kindred"]}</span></td>
         <td>{m["class"]}</td>
+        <td>{level_html}</td>
         <td>{m["player"]}</td>
       </tr>"""
 
@@ -371,6 +375,7 @@ def build_party(data, link_map):
           <th>Character</th>
           <th>Kindred</th>
           <th>Class</th>
+          <th>Level</th>
           <th>Player</th>
         </tr>
       </thead>

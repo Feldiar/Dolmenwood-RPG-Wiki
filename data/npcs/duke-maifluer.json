@@ -1,0 +1,22 @@
+{
+  "id": "duke-maifluer",
+  "name": "Duke Maifluer",
+  "aliases": ["Maifluer"],
+  "status": "active",
+  "first_seen": "session-3",
+  "occupation": "Fairy Duke",
+  "kindred": "Fairy",
+  "location": "Diuthurnia",
+  "description": "A fairy duke who presides over the court of Diuthurnia. Jack was swept into his revel in Session 3 and promptly insulted him by attempting to ride his prized stuffed boar hunting trophy. The Duke's goodwill toward Jack was lost entirely.",
+  "notes": [
+    "Jack was brought to Diuthurnia by a company of fairies and spent time at the Duke's court before insulting his pride. The Duke's favor has not been recovered.",
+    "Maintains hunting grounds in the Table Downs to the north."
+  ],
+  "connections": {
+    "locations": ["Diuthurnia", "Table Downs"],
+    "npcs": [],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

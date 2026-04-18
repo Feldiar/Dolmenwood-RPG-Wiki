@@ -11,14 +11,15 @@
   ],
   "leads": [
     "Strange pipe music drifting from the eastern woods — people describe it as pulling at the heart.",
-    "Eerie piping was also heard from beneath Droomen Knoll. The source has not yet been located.",
+    "The pipe music originated from Thinwhistle, imprisoned in the cells beneath Droomen Knoll. He has been freed.",
     "Mabble's prayer beads were found on the Ditchway.",
-    "Mabble reported he did not see or hear any other prisoners while held captive."
+    "Mabble reported he did not see or hear any other prisoners while held captive.",
+    "Emelda and Farnham Ribblemead were definitively not among the prisoners at Droomen Knoll. Their whereabouts remain unknown."
   ],
   "connections": {
     "npcs": ["Emelda", "Farnham Ribblemead", "Mabble", "Father Dobey", "Llerg"],
     "locations": ["Lankshorn", "The Ditchway", "Droomen Knoll", "Father Dobey's Cottage"],
     "factions": []
   },
-  "sessions": ["session-1", "session-2"]
+  "sessions": ["session-1", "session-2", "session-3"]
 }

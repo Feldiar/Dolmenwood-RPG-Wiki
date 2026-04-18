@@ -13,21 +13,9 @@
       "source": "session-1"
     },
     {
-      "id": "frost-elves-and-cold-prince",
-      "title": "The Cold Prince and the Frost Elves",
-      "content": "Frescoes in the dungeon beneath Droomen Knoll depict white humanoid silhouettes in an icy forest. Lucien identified them as frost elves, associated with the Cold Prince. Their connection to the ruins is unknown.",
-      "source": "session-2"
-    },
-    {
-      "id": "the-frozen-pool",
-      "title": "The Frozen Pool",
-      "content": "A raised stone pool in the deepest explored chamber beneath Droomen Knoll — frozen solid, with stag skull carvings on the basin and snow falling from the ceiling. A chalice of great beauty is visible beneath the ice, with an air bubble inside. A legend speaks of such a pool and its chalice, bound up in fairy ice and mortal blood. The party resealed the chamber and left it undisturbed.",
-      "source": "session-2"
-    },
-    {
       "id": "king-pusskin",
       "title": "King Pusskin",
-      "content": "Mentioned by Sgt. Marge Bregson: rumours of a King Pusskin to the south. No further details known.",
+      "content": "Mentioned by Sgt. Marge Bregson: rumours of a King Pusskin to the south. A shrine to Pusskin stands on the road south toward High Hankle. Milk is the correct offering for those seeking the old cat's favor.",
       "source": "session-2"
     },
     {
@@ -35,6 +23,36 @@
       "title": "Nightworms",
       "content": "Gwomotom knows that nightworms grow large, live in underground tunnels, are edible, but can constrict and eat a person. Immature spawn were spotted on the Ditchway in Session 1.",
       "source": "session-2"
+    },
+    {
+      "id": "the-drune-agent",
+      "title": "The Dead Drune Agent",
+      "content": "A human man in a black cloak bearing Drune markings was found dead in the dungeon beneath Droomen Knoll, drained by stirges. His effects included a golden owl torque, an arcane scroll of unknown content, a platinum ring set with a topaz cut in the shape of an eye, and an orange crystal that triggered a vision in Lucien. Who was this man, and what brought him to Droomen Knoll?",
+      "source": "session-3"
+    },
+    {
+      "id": "the-whything-stones",
+      "title": "The Whything Stones",
+      "content": "When Lucien touched the orange crystal taken from the dead Drune agent, he received a vision: a moss-covered stone altar, a slime-coated stag skeleton at its center, standing stones pressing close on every side. A voice spoke: \"Ill omens at the Whything Stones. Winter cometh.\" A second image followed: a tangled forest and metallic owls among the branches. The location and significance of the Whything Stones are unknown.",
+      "source": "session-3"
+    },
+    {
+      "id": "the-frost-elf-court",
+      "title": "The Frost Elf Court",
+      "content": "The dungeon beneath Droomen Knoll is deeply connected to the frost elf court of Prince Mallowheart. The feasting hall contains six murals depicting court members: Prince Seven-Past-Noon (Mallowheart), Sir Dawn-Neverblooms, Lady Silver-So-Mirrored, Lord Slumberbane, Whisper-Of-Candlelight, and Famine-Whistles-Whither. The Drune allied with the Pluritine Church to seal the frost elves' homeland of Frigia using the Ring of Chel. The nature of the remaining court members and the history of the ruins are not yet understood.",
+      "source": "session-3"
+    },
+    {
+      "id": "the-wood-gods",
+      "title": "The Wood Gods",
+      "content": "Thinwhistle mentioned wood gods who dwelled in Dolmenwood before the frost elves and were imprisoned by the Drune, who were jealous of their power. No further details are known. Their location and current state are unclear.",
+      "source": "session-3"
+    },
+    {
+      "id": "hlerribuck",
+      "title": "The Hlerribuck Breggle Festival",
+      "content": "Llerg mentioned the Hlerribuck breggle festival, which falls on the fourth of Parchment — eight days from the twenty-fifth of Simswald. No further details are known about what the festival entails or where it is held.",
+      "source": "session-3"
     }
   ]
 }

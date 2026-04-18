@@ -6,16 +6,19 @@
   "first_seen": "session-2",
   "occupation": "Soldier",
   "kindred": "Human",
-  "location": "The Constabulary",
-  "description": "A young human soldier assigned by Sgt. Marge Bregson to accompany the party back to Droomen Knoll. Bright smile, unmarred leather armor, spear and shield. Sent as an informant in service of the town.",
+  "location": "Lankshorn",
+  "description": "A young human soldier assigned by Sgt. Marge Bregson to accompany the party back to Droomen Knoll as a representative of the town guard. Bright smile, unmarred leather armor, spear and shield.",
   "notes": [
-    "Sent with the party by Sgt. Bregson as an informant, on the condition the party protect him.",
-    "Accompanied the party on their second descent into Droomen Knoll."
+    "Sent with the party by Sgt. Bregson as a representative of the town, on the condition the party protect him.",
+    "Accompanied the party on their second descent into Droomen Knoll.",
+    "In Session 3, fought in the stirge room — skewered one of the creatures, though it held on. Led the party down the final passage to the cells.",
+    "His blood was drawn and used to melt the ice over the frozen pool, allowing the chalice to be recovered.",
+    "Departed from the party upon their return to Lankshorn."
   ],
   "connections": {
     "locations": ["The Constabulary", "Lankshorn", "Droomen Knoll"],
     "npcs": ["Sgt. Marge Bregson"],
     "quests": ["The Crooked Constable"]
   },
-  "sessions": ["session-2"]
+  "sessions": ["session-2", "session-3"]
 }

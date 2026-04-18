@@ -19,7 +19,12 @@
     "Dreg": "pages/locations/dreg.html",
     "The Abbey": "pages/locations/the-abbey.html",
     "The Constabulary": "pages/locations/the-constabulary.html",
-    "Father Dobey's Cottage": "pages/locations/father-dobeys-cottage.html"
+    "Father Dobey's Cottage": "pages/locations/father-dobeys-cottage.html",
+    "Diuthurnia": "pages/locations/diuthurnia.html",
+    "Blossom Fields": "pages/locations/blossom-fields.html",
+    "Frigia": "pages/locations/frigia.html",
+    "Table Downs": "pages/locations/table-downs.html",
+    "High Hankle": "pages/locations/high-hankle.html"
   },
   "npcs": {
     "Father Dobey": "pages/npcs/father-dobey.html",
@@ -42,7 +47,16 @@
     "Sgt. Bregson": "pages/npcs/sgt-marge-bregson.html",
     "Marge Bregson": "pages/npcs/sgt-marge-bregson.html",
     "Bregson": "pages/npcs/sgt-marge-bregson.html",
-    "Brennan": "pages/npcs/brennan.html"
+    "Brennan": "pages/npcs/brennan.html",
+    "Thinwhistle": "pages/npcs/thinwhistle.html",
+    "Famine-Whistles-Whither": "pages/npcs/thinwhistle.html",
+    "Prince Mallowheart": "pages/npcs/prince-mallowheart.html",
+    "Mallowheart": "pages/npcs/prince-mallowheart.html",
+    "Prince Seven-Past-Noon": "pages/npcs/prince-mallowheart.html",
+    "Duke Maifluer": "pages/npcs/duke-maifluer.html",
+    "Maifluer": "pages/npcs/duke-maifluer.html",
+    "Princess Andromethia": "pages/npcs/princess-andromethia.html",
+    "Andromethia": "pages/npcs/princess-andromethia.html"
   },
   "party": {
     "Brother Henrick Tolmen": "pages/party.html",
@@ -59,11 +73,15 @@
   },
   "factions": {
     "Crookhorns": "pages/factions/crookhorns.html",
-    "Nag-Lord": "pages/factions/crookhorns.html"
+    "Nag-Lord": "pages/factions/crookhorns.html",
+    "Drune": "pages/factions/drune.html",
+    "Hooded Men": "pages/factions/drune.html",
+    "Frost Elves": "pages/factions/frost-elves.html"
   },
   "quests": {
     "The Missing": "pages/quests/the-missing.html",
     "Crookhorn Bounty": "pages/quests/crookhorn-bounty.html",
-    "The Crooked Constable": "pages/quests/the-crooked-constable.html"
+    "The Crooked Constable": "pages/quests/the-crooked-constable.html",
+    "The Frozen Court": "pages/quests/the-frozen-court.html"
   }
 }

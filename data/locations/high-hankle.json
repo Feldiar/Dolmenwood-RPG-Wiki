@@ -1,0 +1,20 @@
+{
+  "id": "high-hankle",
+  "name": "High Hankle",
+  "type": "Settlement",
+  "region": "Southern Dolmenwood",
+  "first_seen": "session-3",
+  "description": "A settlement to the south of Lankshorn. The party paid Llerg to travel here and lay low for a few weeks after he was roughed up by pro-Ramius breggles at the Bogways.",
+  "notes": [
+    "Llerg was sent here in Session 3 with forty gold to stay out of trouble."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": [],
+    "npcs": ["Llerg"],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "frigia",
+  "name": "Frigia",
+  "type": "Fairy Realm",
+  "region": "Fairy",
+  "first_seen": "session-3",
+  "description": "The homeland of the frost elves, sealed away from the mortal world long ago by the Drune using the Ring of Chel — a ring of standing stones. Thinwhistle desires its barrier to be reopened.",
+  "notes": [
+    "Sealed by the Drune with the Ring of Chel, a ring of standing stones. The barrier prevents entry — Thinwhistle himself cannot cross.",
+    "Thinwhistle suggested that where the waters of Naon fall from great heights, where the watchers wait, passage may be possible for mortals.",
+    "Thinwhistle's cryptic message spoke of a starving court that has dined on sugared lies for nine hundred years."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": ["Frost Elves", "Drune"],
+    "npcs": ["Thinwhistle", "Prince Mallowheart"],
+    "quests": ["The Frozen Court"]
+  },
+  "sessions": ["session-3"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diuthurnia",
+  "name": "Diuthurnia",
+  "type": "Fairy Court",
+  "region": "Fairy",
+  "first_seen": "session-3",
+  "description": "A fairy court presided over by Duke Maifluer. Jack was swept here by a company of fairies in Session 3 and attended a revel before insulting the Duke's pride.",
+  "notes": [
+    "Jack was brought here by a company of fairies, mostly elves. He lost the Duke's favor after pretending to ride the Duke's prized stuffed boar hunting trophy."
+  ],
+  "npcs": ["Duke Maifluer"],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": [],
+    "npcs": ["Duke Maifluer"],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

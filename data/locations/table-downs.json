@@ -1,0 +1,20 @@
+{
+  "id": "table-downs",
+  "name": "Table Downs",
+  "type": "Region",
+  "region": "North Dolmenwood",
+  "first_seen": "session-3",
+  "description": "A region in the north of Dolmenwood. Duke Maifluer of Diuthurnia is known to maintain hunting grounds here.",
+  "notes": [
+    "Duke Maifluer keeps hunting grounds here. Jack learned this during his ill-fated visit to Diuthurnia."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Diuthurnia"],
+    "factions": [],
+    "npcs": ["Duke Maifluer"],
+    "quests": []
+  },
+  "sessions": ["session-3"]
+}

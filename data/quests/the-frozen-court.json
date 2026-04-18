@@ -1,0 +1,24 @@
+{
+  "id": "the-frozen-court",
+  "name": "The Frozen Court",
+  "status": "active",
+  "first_seen": "session-3",
+  "description": "Thinwhistle, a frost elf imprisoned beneath Droomen Knoll for centuries, was freed by the party in Session 3. In exchange, he shared knowledge of a fairy door to the west. His deeper desire is the reopening of Frigia, the frost elf homeland sealed by the Drune with the Ring of Chel. Before departing, he left the party a cryptic message pointing toward the waters of Naon as a possible crossing point.",
+  "objectives": [
+    "Determine what, if anything, the party intends to do about Thinwhistle's desire to reopen Frigia.",
+    "Investigate the waters of Naon and the crossing point Thinwhistle described."
+  ],
+  "leads": [
+    "Thinwhistle described a fairy door to the west: catch the edge of the wood, find a clearing of rat skulls, and travelers will be whisked away. Fairy kingdom entrances on either side of the road require invitations. Following the road leads elsewhere in Dolmenwood.",
+    "Frigia is sealed by the Ring of Chel, a ring of standing stones erected by the Drune.",
+    "Thinwhistle's message: \"Where Naon's waters veil the stone, a starving court still dines alone. Nine hundred years on sugared lies, when last they drink, the last one dies. I cannot go. The watchers wait, root and horn beside the gate. But you may pass where I am banned, warm-breathed ghosts in fey-touched land.\"",
+    "Thinwhistle stated that where the waters of Naon fall from great heights, where the watchers wait, passage to Frigia may be possible for mortals — though he himself is barred.",
+    "The chalice retrieved from the frozen pool is an heirloom of Prince Mallowheart, suggesting a connection between Mallowheart and Droomen Knoll."
+  ],
+  "connections": {
+    "npcs": ["Thinwhistle", "Prince Mallowheart"],
+    "locations": ["Droomen Knoll", "Frigia"],
+    "factions": ["Frost Elves", "Drune"]
+  },
+  "sessions": ["session-3"]
+}
