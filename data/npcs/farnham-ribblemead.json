@@ -10,18 +10,13 @@
   "notes": [
     "Was seen reading a letter that may have prompted him to enter the woods.",
     "Disappeared under similar circumstances to Emelda.",
-    "One of three people who have gone missing, possibly linked to the strange pipe music."
+    "One of three people who have gone missing, possibly linked to the strange pipe music.",
+    "Sidewich Maldwort of the Man of Gold apothecary knew him and describes him as a linguist."
   ],
   "connections": {
-    "locations": [
-      "Lankshorn"
-    ],
-    "npcs": [],
-    "quests": [
-      "The Missing"
-    ]
+    "locations": ["Lankshorn"],
+    "npcs": ["Sidewich Maldwort"],
+    "quests": ["The Missing"]
   },
-  "sessions": [
-    "session-1"
-  ]
+  "sessions": ["session-1", "session-4"]
 }

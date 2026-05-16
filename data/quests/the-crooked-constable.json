@@ -14,12 +14,13 @@
     "Jack sent a false letter to the constabulary claiming the party would depart on Moot — a day later than planned — hoping to forestall any ambush on the road.",
     "Brennan was assigned by Sgt. Bregson to accompany the party as a representative of the town guard. His loyalties remain unclear.",
     "Sgt. Marge Bregson's allegiance is uncertain. She may be a genuine ally or part of the same network.",
-    "Pro-Ramius breggles — Marialla, James, and Fisk — roughed up Llerg at the Bogways in Session 3, suggesting an organized faction hostile to Malbleat's interests and likely connected to the broader crookhorn conspiracy."
+    "Pro-Ramius breggles — Marialla, James, and Fisk — accosted Llerg at the Bogways in Session 3. Session 4 confirmed they are operatives delivering children to Shub's Nana's silver goblins.",
+    "In Session 4, Wolder was lured into the woods and captured. Under questioning he confessed: he arranged the disappearances to discredit Lord Malbleat, not on direct Nag-Lord orders. He worked through Shub's Nana — a crone who serves the Nag-Lord independently. See the Shub's Nana quest."
   ],
   "connections": {
-    "npcs": ["Constable Sidney Wolder", "Sgt. Marge Bregson", "Brennan", "Llerg"],
+    "npcs": ["Constable Sidney Wolder", "Sgt. Marge Bregson", "Brennan", "Llerg", "Shub's Nana"],
     "locations": ["The Constabulary", "Lankshorn", "Droomen Knoll"],
     "factions": ["Crookhorns"]
   },
-  "sessions": ["session-2", "session-3"]
+  "sessions": ["session-2", "session-3", "session-4"]
 }

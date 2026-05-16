@@ -1,0 +1,25 @@
+{
+  "id": "shubs-nana",
+  "name": "Shub's Nana",
+  "aliases": ["the crone"],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Crone",
+  "kindred": "Human",
+  "location": "Unknown — cottage of brick beside a dark rushing brook, nearly a day south of Lankshorn",
+  "description": "A crone who serves the Nag-Lord. Not a crookhorn herself, but operates in his interest by procuring children and sending them north to be eaten. Uses silver goblins as intermediaries and travels by sleigh.",
+  "notes": [
+    "Can be summoned on moonlit nights by speaking the phrase Leeleeglablea, which also calls the silver goblins who collect children on her behalf.",
+    "Constable Wolder struck a deal with her to make children disappear from Lankshorn, intending to undermine Lord Malbleat and reinstate Lord Ramius.",
+    "The three breggles — Marialla, James, and Fisk — serve as her ground-level operatives, delivering children to the goblins.",
+    "Her cottage is of brick, set beside a dark and rushing brook, nearly a day's travel south of Lankshorn. Wolder was transported there by goblins from the Jaunty Horn inn along the Ditchway.",
+    "Wolder described being grabbed by goblins, transported to the cottage, and returned to the woods outside Lankshorn before he understood what had happened — this was several months ago."
+  ],
+  "connections": {
+    "locations": ["The Ditchway", "Jaunty Horn"],
+    "npcs": ["Constable Sidney Wolder"],
+    "factions": ["Crookhorns"],
+    "quests": ["Shub's Nana", "The Missing", "The Crooked Constable"]
+  },
+  "sessions": ["session-4"]
+}

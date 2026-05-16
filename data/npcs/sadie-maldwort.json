@@ -1,0 +1,23 @@
+{
+  "id": "sadie-maldwort",
+  "name": "Sadie Maldwort",
+  "aliases": ["Sadie"],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Child",
+  "kindred": "Human",
+  "location": "Lankshorn",
+  "description": "Daughter of Sidewich Maldwort, the apothecary. A child who frequents the Nuncle Stones at the edge of the woods with other local children.",
+  "notes": [
+    "The handmade vial-shaped pin found near the Nuncle Stones was hers.",
+    "Witnessed an elf (Lucien) playing music at the Nuncle Stones. Small creatures appeared from thin air, spoke to him, and vanished with him — explaining what became of Lucien during his five-day absence.",
+    "Her father briefly scolded her for playing by the Stones."
+  ],
+  "connections": {
+    "locations": ["Lankshorn", "Nuncle Stones"],
+    "npcs": ["Sidewich Maldwort"],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-4"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "shubs-nana",
+  "name": "Shub's Nana",
+  "status": "active",
+  "first_seen": "session-4",
+  "description": "Spun off from The Crooked Constable. Constable Wolder's confession revealed that the children missing from Lankshorn were not taken by crookhorns but by a crone called Shub's Nana, who serves the Nag-Lord. She has been sending them north to be eaten. The party plans to pursue her south.",
+  "objectives": [
+    "Locate Shub's Nana's cottage — brick, beside a dark rushing brook, nearly a day south of Lankshorn.",
+    "Rescue the children she has taken.",
+    "Stop the pipeline: the three breggles (Marialla, James, and Fisk) who deliver children to the silver goblins."
+  ],
+  "leads": [
+    "Constable Wolder was transported by silver goblins from near the Jaunty Horn inn along the Ditchway to the crone's cottage, then returned — suggesting the cottage is roughly a day south.",
+    "The phrase Leeleeglablea summons the silver goblins on a moonlit night.",
+    "The crone travels by sleigh.",
+    "The three pro-Ramius breggles — Marialla, James, and Fisk — are the ground-level operatives who bring children to the goblins. They were also the ones who accosted Llerg at the Bogways.",
+    "Shub's Nana is not a crookhorn but serves the Nag-Lord independently. See also: The Crooked Constable."
+  ],
+  "connections": {
+    "npcs": ["Shub's Nana", "Constable Sidney Wolder"],
+    "locations": ["Jaunty Horn", "The Ditchway"],
+    "factions": ["Crookhorns"]
+  },
+  "sessions": ["session-4"]
+}

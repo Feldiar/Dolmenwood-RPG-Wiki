@@ -1,0 +1,23 @@
+{
+  "id": "merrick",
+  "name": "Merrick",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Guard",
+  "kindred": "Human",
+  "location": "The Constabulary",
+  "description": "A guard at the Lankshorn constabulary, loyal to Constable Wolder.",
+  "notes": [
+    "Accompanied Wolder into the woods on the night the party set their ambush.",
+    "Tripped by a rope strung across the path by the party, then knocked unconscious by Jack with the pommel of a dagger.",
+    "Bound and left in the woods after the ambush."
+  ],
+  "connections": {
+    "locations": ["The Constabulary", "Lankshorn"],
+    "npcs": ["Constable Sidney Wolder", "Esther"],
+    "factions": [],
+    "quests": ["The Crooked Constable"]
+  },
+  "sessions": ["session-4"]
+}

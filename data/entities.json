@@ -24,7 +24,11 @@
     "Blossom Fields": "pages/locations/blossom-fields.html",
     "Frigia": "pages/locations/frigia.html",
     "Table Downs": "pages/locations/table-downs.html",
-    "High Hankle": "pages/locations/high-hankle.html"
+    "High Hankle": "pages/locations/high-hankle.html",
+    "Man of Gold": "pages/locations/man-of-gold.html",
+    "Nuncle Stones": "pages/locations/nuncle-stones.html",
+    "Shadhome": "pages/locations/shadhome.html",
+    "Jaunty Horn": "pages/locations/jaunty-horn.html"
   },
   "npcs": {
     "Father Dobey": "pages/npcs/father-dobey.html",
@@ -56,7 +60,17 @@
     "Duke Maifluer": "pages/npcs/duke-maifluer.html",
     "Maifluer": "pages/npcs/duke-maifluer.html",
     "Princess Andromethia": "pages/npcs/princess-andromethia.html",
-    "Andromethia": "pages/npcs/princess-andromethia.html"
+    "Andromethia": "pages/npcs/princess-andromethia.html",
+    "Sidewich Maldwort": "pages/npcs/sidewich-maldwort.html",
+    "Maldwort": "pages/npcs/sidewich-maldwort.html",
+    "Sadie Maldwort": "pages/npcs/sadie-maldwort.html",
+    "Sadie": "pages/npcs/sadie-maldwort.html",
+    "Jeremy": "pages/npcs/jeremy.html",
+    "Joromy Whilptson-Puddingfoot": "pages/npcs/joromy-whilptson-puddingfoot.html",
+    "Whilptson-Puddingfoot": "pages/npcs/joromy-whilptson-puddingfoot.html",
+    "Merrick": "pages/npcs/merrick.html",
+    "Esther": "pages/npcs/esther.html",
+    "Shub's Nana": "pages/npcs/shubs-nana.html"
   },
   "party": {
     "Brother Henrick Tolmen": "pages/party.html",

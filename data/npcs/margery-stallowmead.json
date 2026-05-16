@@ -9,12 +9,13 @@
   "description": "Proprietor of Hornstoat's Rest in Lankshorn.",
   "notes": [
     "Has three sons and one daughter.",
-    "Her daughter is part human, part breggle."
+    "Her daughter is part human, part breggle.",
+    "In Session 4, confirmed that Lucien had bought expensive drinks and headed into the woods alone — he was not with the three breggles."
   ],
   "connections": {
     "locations": ["Hornstoat's Rest", "Lankshorn"],
     "npcs": [],
     "quests": []
   },
-  "sessions": ["session-1"]
+  "sessions": ["session-1", "session-4"]
 }

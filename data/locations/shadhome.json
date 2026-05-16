@@ -1,0 +1,20 @@
+{
+  "id": "shadhome",
+  "name": "Shadhome",
+  "type": "Hall / Seat of Power",
+  "region": "Lankshorn",
+  "first_seen": "session-4",
+  "description": "The seat of breggle power in the Lankshorn region. Hosts the private portion of the Hlerribuck breggle festival, closed to non-breggles.",
+  "notes": [
+    "The Hlerribuck festival's public events are open to all of Lankshorn; the private gathering at Shadhome is for breggles only."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "factions": [],
+    "npcs": [],
+    "quests": []
+  },
+  "sessions": ["session-4"]
+}

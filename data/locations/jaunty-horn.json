@@ -1,0 +1,20 @@
+{
+  "id": "jaunty-horn",
+  "name": "Jaunty Horn",
+  "type": "Inn",
+  "region": "The Ditchway",
+  "first_seen": "session-4",
+  "description": "An inn along the Ditchway. Constable Wolder was seized by silver goblins near here and transported south to Shub's Nana's cottage.",
+  "notes": [
+    "The site where Constable Wolder was grabbed by silver goblins several months ago and taken to Shub's Nana's cottage, nearly a day's travel south."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["The Ditchway"],
+    "factions": [],
+    "npcs": ["Shub's Nana", "Constable Sidney Wolder"],
+    "quests": ["Shub's Nana"]
+  },
+  "sessions": ["session-4"]
+}

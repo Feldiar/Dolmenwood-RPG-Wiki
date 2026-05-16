@@ -7,10 +7,14 @@
   "occupation": "Fairy Princess",
   "kindred": "Fairy",
   "location": "Blossom Fields",
-  "description": "A kind fairy princess whose domain, the Blossom Fields, is populated by creatures half-elf and half-satyr. Her lands of hills and meadows instill a feeling close to ecstasy. Lucien was drawn into her realm in Session 3 and did not return for five days.",
+  "description": "A fairy princess whose domain, the Blossom Fields, is populated by elves. Her lands of hills and meadows instill a feeling close to ecstasy. Lucien was drawn into her realm in Session 3 and remained five days.",
   "notes": [
     "Lucien was taken to her Blossom Fields in Session 3 and remained there for five days.",
-    "Holds lands in the mortal realm as well, somewhere in the south of Dolmenwood."
+    "Holds lands in the mortal realm as well, somewhere in the south of Dolmenwood.",
+    "In Session 4, confirmed the location of the Naom waterfall (feeds into Lake Longmere) and noted a frost elf embassy stands nearby — key to Thinwhistle's riddle.",
+    "Extended an invitation to Lucien to return to the Blossom Fields.",
+    "Warned Lucien about her sister: a figure who rules the Deathglades from a palace of white marble, titled the Lady of Spring Unending.",
+    "Provided information on the fairy roads: the Moggle Door near Lankshorn runs north to Willowgate; Buttercup Lane connects the Rosy Gate (northeast) to the Emerald Door (northwest)."
   ],
   "connections": {
     "locations": ["Blossom Fields"],
@@ -18,5 +22,5 @@
     "factions": [],
     "quests": []
   },
-  "sessions": ["session-3"]
+  "sessions": ["session-3", "session-4"]
 }

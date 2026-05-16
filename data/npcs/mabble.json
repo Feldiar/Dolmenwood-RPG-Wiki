@@ -12,12 +12,13 @@
     "One of three people who went missing, linked to the strange pipe music.",
     "Found unconscious in the dungeon beneath Droomen Knoll, held by the crookhorns. Had been following the sound of the pipe music, became enchanted, and was struck from behind.",
     "Did not see or hear any other prisoners while drifting in and out of consciousness.",
-    "Rescued and returned to Father Dobey's cottage. Head wound dressed by Father Dobey."
+    "Rescued and returned to Father Dobey's cottage. Head wound dressed by Father Dobey.",
+    "In Session 4, told Brother Henrick that he had witnessed Father Dobey admit two male breggles to the church late one night. Neither breggle had returned since. This intelligence gave the party a pretext to lure Constable Wolder into the woods."
   ],
   "connections": {
     "locations": ["Church of St. Pastery", "Father Dobey's Cottage", "The Ditchway", "Droomen Knoll"],
     "npcs": ["Father Dobey"],
     "quests": ["The Missing"]
   },
-  "sessions": ["session-1", "session-2"]
+  "sessions": ["session-1", "session-2", "session-4"]
 }

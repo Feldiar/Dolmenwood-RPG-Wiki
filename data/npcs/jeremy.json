@@ -1,0 +1,23 @@
+{
+  "id": "jeremy",
+  "name": "Jeremy",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Child",
+  "kindred": "Human",
+  "location": "Lankshorn",
+  "description": "A poor child of Lankshorn hired by Jack to tail Constable Wolder and report his movements.",
+  "notes": [
+    "Paid by Jack to keep watch on the Constable's comings and goings.",
+    "Reported that the Constable left the constabulary and walked down the Ditchway into the woods on the night of the 25th.",
+    "Led the party to the clearing outside town where the Constable had met with the silver goblins."
+  ],
+  "connections": {
+    "locations": ["Lankshorn", "The Ditchway"],
+    "npcs": ["Constable Sidney Wolder"],
+    "factions": [],
+    "quests": ["The Crooked Constable"]
+  },
+  "sessions": ["session-4"]
+}

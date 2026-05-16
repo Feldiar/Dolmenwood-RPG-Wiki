@@ -1,0 +1,23 @@
+{
+  "id": "nuncle-stones",
+  "name": "Nuncle Stones",
+  "type": "Standing Stones",
+  "region": "Lankshorn",
+  "first_seen": "session-4",
+  "description": "Standing stones at the edge of the woods near Lankshorn. A place where local children gather. The stones appear to mark a point where the boundary between the mortal realm and Fairy is thin.",
+  "notes": [
+    "Lucien was playing music here when small creatures appeared from thin air and swept him away to the Blossom Fields.",
+    "Sadie Maldwort witnessed the event and described short creatures appearing from thin air, speaking to the elf, then vanishing with him.",
+    "A small handmade pin shaped like a vial was found near the stones — it belonged to Sadie Maldwort.",
+    "Her father Sidewich Maldwort discouraged her from playing here."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": ["Lankshorn", "Blossom Fields"],
+    "factions": [],
+    "npcs": ["Sadie Maldwort"],
+    "quests": []
+  },
+  "sessions": ["session-4"]
+}

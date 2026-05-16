@@ -12,13 +12,17 @@
     "Paid out the crookhorn bounty to the party.",
     "Advised the party not to return to Droomen Knoll.",
     "Suggested the party speak with Sgt. Marge Bregson if they wanted support.",
-    "A Gaff letter found at Droomen Knoll named Wolder as a contact regarding crookhorn matters, suggesting he may be in league with them. Llerg translated the letter; the party bribed him to keep quiet."
+    "A Gaff letter found at Droomen Knoll named Wolder as a contact regarding crookhorn matters, suggesting he may be in league with them. Llerg translated the letter; the party bribed him to keep quiet.",
+    "In Session 4, lured into the woods by Brother Henrick under the pretense of investigating suspicious activity at the Church of St. Pastery. Ambushed and paralyzed by a divine miracle called down by Henrick. Bound and interrogated.",
+    "Confessed that he arranged for children to go missing from Lankshorn not on Nag-Lord orders, but to undermine Lord Malbleat and reinstate Lord Ramius. He made contact with Shub's Nana — a crone who serves the Nag-Lord independently — and used her silver goblin network to move the children north.",
+    "Constable speaking to silver goblins directly; no crookhorn involvement in the abductions.",
+    "A crystal vial of liquid with a nutty aroma was found on his person by Jack."
   ],
   "connections": {
-    "locations": ["The Constabulary", "Lankshorn"],
-    "npcs": ["Sgt. Marge Bregson"],
+    "locations": ["The Constabulary", "Lankshorn", "Jaunty Horn"],
+    "npcs": ["Sgt. Marge Bregson", "Shub's Nana"],
     "factions": ["Crookhorns"],
-    "quests": ["The Crooked Constable", "Crookhorn Bounty"]
+    "quests": ["The Crooked Constable", "Crookhorn Bounty", "Shub's Nana"]
   },
-  "sessions": ["session-2"]
+  "sessions": ["session-2", "session-4"]
 }

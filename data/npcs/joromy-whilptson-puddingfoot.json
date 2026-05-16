@@ -1,0 +1,23 @@
+{
+  "id": "joromy-whilptson-puddingfoot",
+  "name": "Joromy Whilptson-Puddingfoot",
+  "aliases": ["Whilptson-Puddingfoot"],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Bladesmith",
+  "kindred": "Human",
+  "location": "Lankshorn",
+  "description": "A famed bladesmith of Lankshorn. Compact build, mid-forties, wide-set and piercing eyes, hair slicked flat and black.",
+  "notes": [
+    "Expressed no objection to Tomkin serving Lord Ramius.",
+    "Accepted Tomkin's mace and shield in trade for a longsword.",
+    "Mentioned that he practices moon forging — tempering blades under the full moon to imbue them with qualities ordinary fire cannot produce."
+  ],
+  "connections": {
+    "locations": ["Lankshorn"],
+    "npcs": [],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-4"]
+}

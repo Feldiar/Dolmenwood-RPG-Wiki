@@ -150,6 +150,7 @@ def sidebar_html(active_section=None, depth=1):
         item("Session 1 — The Road East", "pages/sessions/session-1.html", "sessions"),
         item("Session 2 — Below the Knoll", "pages/sessions/session-2.html", "sessions"),
         item("Session 3 — The Prisoner", "pages/sessions/session-3.html", "sessions"),
+        item("Session 4 — The Con(stable) Job", "pages/sessions/session-4.html", "sessions"),
         '</nav>',
     ]
     return "\n".join(lines)

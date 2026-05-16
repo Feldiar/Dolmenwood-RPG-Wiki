@@ -1,0 +1,22 @@
+{
+  "id": "esther",
+  "name": "Esther",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-4",
+  "occupation": "Guard",
+  "kindred": "Human",
+  "location": "The Constabulary",
+  "description": "A guard at the Lankshorn constabulary, loyal to Constable Wolder.",
+  "notes": [
+    "Accompanied Wolder into the woods on the night of the party's ambush.",
+    "Staggered by Tomkin with the flat of his blade, then fled. Caught, knocked out, and bound."
+  ],
+  "connections": {
+    "locations": ["The Constabulary", "Lankshorn"],
+    "npcs": ["Constable Sidney Wolder", "Merrick"],
+    "factions": [],
+    "quests": ["The Crooked Constable"]
+  },
+  "sessions": ["session-4"]
+}

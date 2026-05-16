@@ -51,8 +51,20 @@
     {
       "id": "hlerribuck",
       "title": "The Hlerribuck Breggle Festival",
-      "content": "Llerg mentioned the Hlerribuck breggle festival, which falls on the fourth of Parchment — eight days from the twenty-fifth of Simswald. No further details are known about what the festival entails or where it is held.",
+      "content": "The Hlerribuck breggle festival falls on the fourth of Parchment. It has a public portion open to all of Lankshorn and a private gathering for breggles only at Shadhome, the seat of breggle power in the region.",
       "source": "session-3"
+    },
+    {
+      "id": "lady-of-spring-unending",
+      "title": "The Lady of Spring Unending",
+      "content": "Princess Andromethia warned Lucien about her sister, who rules the Deathglades from a palace of white marble. Her title is the Lady of Spring Unending. Andromethia's tone when she named her was not casual. Nothing else is known.",
+      "source": "session-4"
+    },
+    {
+      "id": "grey-creatures-in-the-clearing",
+      "title": "The Grey Creatures in the Clearing",
+      "content": "A crow observed small grey creatures that frequent the clearing along the Ditchway where the Constable met with the silver goblins. The creatures simply vanish when observed. Their nature and purpose are unknown.",
+      "source": "session-4"
     }
   ]
 }

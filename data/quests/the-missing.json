@@ -14,12 +14,14 @@
     "The pipe music originated from Thinwhistle, imprisoned in the cells beneath Droomen Knoll. He has been freed.",
     "Mabble's prayer beads were found on the Ditchway.",
     "Mabble reported he did not see or hear any other prisoners while held captive.",
-    "Emelda and Farnham Ribblemead were definitively not among the prisoners at Droomen Knoll. Their whereabouts remain unknown."
+    "Emelda and Farnham Ribblemead were definitively not among the prisoners at Droomen Knoll. Their whereabouts remain unknown.",
+    "Sidewich Maldwort of the Man of Gold knew Farnham Ribblemead and describes him as a linguist.",
+    "Father Dobey admitted two male breggles to the Church of St. Pastery late one night; neither returned. Connection to the missing persons unclear."
   ],
   "connections": {
-    "npcs": ["Emelda", "Farnham Ribblemead", "Mabble", "Father Dobey", "Llerg"],
+    "npcs": ["Emelda", "Farnham Ribblemead", "Mabble", "Father Dobey", "Llerg", "Sidewich Maldwort"],
     "locations": ["Lankshorn", "The Ditchway", "Droomen Knoll", "Father Dobey's Cottage"],
     "factions": []
   },
-  "sessions": ["session-1", "session-2", "session-3"]
+  "sessions": ["session-1", "session-2", "session-3", "session-4"]
 }
