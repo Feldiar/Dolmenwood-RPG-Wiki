@@ -4,17 +4,20 @@
   "type": "Inn",
   "region": "The Ditchway",
   "first_seen": "session-4",
-  "description": "An inn along the Ditchway. Constable Wolder was seized by silver goblins near here and transported south to Shub's Nana's cottage.",
+  "description": "A lively inn along the Ditchway, roughly eight and a half miles from Lankshorn — a half-day's walk. Run by Jezebel, a former adventurer. Hundreds of horseshoes cover the walls. Two children, siblings, are often underfoot.",
   "notes": [
-    "The site where Constable Wolder was grabbed by silver goblins several months ago and taken to Shub's Nana's cottage, nearly a day's travel south."
+    "The site where Constable Wolder was grabbed by silver goblins several months ago and taken to Shub's Nana's cottage, nearly a day's travel south.",
+    "Proprietor Jezebel bought the inn with adventuring earnings. She dreams of hunting a yellow bile wyrm south of Prigwort as her last great adventure.",
+    "Jezebel keeps a bottle of nippers in stock for grimalkin guests.",
+    "In Session 5, the Wooden Wolves arrived carrying their stricken companion Brehder, who had been drained of color and vitality by a mysterious stone."
   ],
-  "npcs": [],
+  "npcs": ["Jezebel"],
   "sublocations": [],
   "connections": {
     "locations": ["The Ditchway"],
-    "factions": [],
-    "npcs": ["Shub's Nana", "Constable Sidney Wolder"],
+    "factions": ["Wooden Wolves"],
+    "npcs": ["Jezebel", "Shub's Nana", "Constable Sidney Wolder", "Brehder", "Berrild", "Crump"],
     "quests": ["Shub's Nana"]
   },
-  "sessions": ["session-4"]
+  "sessions": ["session-4", "session-5"]
 }

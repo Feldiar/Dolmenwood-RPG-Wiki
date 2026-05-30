@@ -1,0 +1,23 @@
+{
+  "id": "aetho-grym",
+  "name": "Aetho Grym",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Drune",
+  "kindred": "Human",
+  "location": "Golokstone",
+  "description": "A tall human man of Drune affiliation, encountered at the Golokstone. Shaved head, brass nose ring, dark cloak, curved dagger. He accompanied small figures made of sticks and wore a bracelet of bone carved with mushroom shapes.",
+  "notes": [
+    "Warned the party that the Golokstone is the domain of the Drune alone, and that mortals and fairies must leave and never return.",
+    "Accompanied by small stick figures in the manner of a retinue.",
+    "Bone bracelet carved with mushroom imagery."
+  ],
+  "connections": {
+    "locations": ["Golokstone"],
+    "npcs": [],
+    "factions": ["Drune"],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

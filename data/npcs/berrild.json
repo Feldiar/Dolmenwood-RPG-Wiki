@@ -1,0 +1,23 @@
+{
+  "id": "berrild",
+  "name": "Berrild",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Adventurer (Wooden Wolves)",
+  "kindred": "Breggle",
+  "location": "Jaunty Horn",
+  "description": "A female breggle, member of the Wooden Wolves adventuring party. One of her eyes has been replaced by a yellow crystal, which glows under Detect Magic.",
+  "notes": [
+    "Yellow crystal replacing one eye — glows under Detect Magic.",
+    "Wears the green and yellow colors of Lord Malbleat.",
+    "Traveling to ease Brehder's condition when encountered at the Jaunty Horn."
+  ],
+  "connections": {
+    "locations": [],
+    "npcs": ["Brehder", "Crump"],
+    "factions": ["Wooden Wolves"],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "brackenwold",
+  "name": "Brackenwold",
+  "type": "Castle / Seat of the Church",
+  "region": "Unknown",
+  "first_seen": "session-5",
+  "description": "The seat of the Pluritine Church and the Bishop's residence. Alfred came from here after being cursed with lycanthropy. Henrick suspects the Bishop was responsible for the curse.",
+  "notes": [
+    "Alfred was cursed with lycanthropy here.",
+    "Henrick suspects the Bishop — based at Brackenwold — is behind Alfred's affliction.",
+    "Not yet visited by the party."
+  ],
+  "npcs": [],
+  "sublocations": [],
+  "connections": {
+    "locations": [],
+    "factions": ["Pluritine Church"],
+    "npcs": ["Alfred"],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

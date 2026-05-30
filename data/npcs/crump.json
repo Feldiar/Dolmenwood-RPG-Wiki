@@ -1,0 +1,22 @@
+{
+  "id": "crump",
+  "name": "Crump",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Adventurer (Wooden Wolves)",
+  "kindred": "Breggle",
+  "location": "Jaunty Horn",
+  "description": "A male breggle, member of the Wooden Wolves adventuring party. Wears the green and yellow colors of Lord Malbleat.",
+  "notes": [
+    "Carries magic armor — detected by Henrick's Detect Magic.",
+    "Tomkin attempted to spy on him through an upstairs window and fell."
+  ],
+  "connections": {
+    "locations": [],
+    "npcs": ["Brehder", "Berrild"],
+    "factions": ["Wooden Wolves"],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

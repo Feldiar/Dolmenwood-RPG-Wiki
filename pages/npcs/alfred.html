@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfred — Dolmenwood Campaign Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <style>
+    #lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 9999;
+      cursor: zoom-out;
+      align-items: center;
+      justify-content: center;
+    }
+    #lightbox-overlay.active { display: flex; }
+    #lightbox-overlay img {
+      max-width: 92vw;
+      max-height: 92vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div class="layout">
+
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <a href="../../index.html">Dolmenwood Campaign Wiki</a>
+    <span class="campaign-name">Dolmenwood</span>
+  </div>
+  <div class="sidebar-section">Party</div>
+  <a class="sidebar-item" href="../../pages/party.html">The Party</a>
+  <div class="sidebar-section">World</div>
+  <a class="sidebar-item" href="../../pages/locations/index.html">Locations</a>
+  <a class="sidebar-item" href="../../pages/factions/index.html">Factions</a>
+  <a class="sidebar-item active" href="../../pages/npcs/index.html">NPCs</a>
+  <div class="sidebar-section">Story</div>
+  <a class="sidebar-item" href="../../pages/quests/index.html">Quests</a>
+  <a class="sidebar-item" href="../../pages/loose-ends.html">Loose Ends, Rumors, and Misc.</a>
+  <div class="sidebar-section">Journal</div>
+  <a class="sidebar-item" href="../../pages/sessions/session-1.html">Session 1 — The Road East</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-2.html">Session 2 — Below the Knoll</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-3.html">Session 3 — The Prisoner</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-4.html">Session 4 — The Con(stable) Job</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-5.html">Session 5 — The Judgement of the Unicorn</a>
+</nav>
+
+<main class="main">
+  <div class="main-inner">
+
+    <div class="page-header">
+      <div class="page-eyebrow">
+        <a href="../../index.html">Home</a>
+        <span class="separator">›</span>
+        <a href="index.html">NPCs</a>
+        <span class="separator">›</span>
+        Alfred
+      </div>
+      <h1 class="page-title">Alfred</h1>
+      <div class="page-meta"><span class="tag tag-session">S5</span></div>
+    </div>
+
+    <div class="entity-layout">
+      <div class="entity-content">
+        <p>A man in his mid-forties, dirty and wild-haired when first encountered, who had been suffering from lycanthropy. Cured by <a class="wiki-link" href="../../pages/party.html">Brother Henrick</a>, he woke with bluer eyes and a slightly younger face. He was cursed at <a class="wiki-link" href="../../pages/locations/brackenwold.html">Brackenwold</a> and seeks redemption.</p>
+        <ul>
+  <li>Encountered in the woods at night, pursuing a unicorn he hoped would cure his lycanthropy.</li>
+  <li>The unicorn judged him unworthy of its blessing.</li>
+  <li><a class="wiki-link" href="../../pages/party.html">Tomkin</a> encountered him first; Alfred attempted to bite <a class="wiki-link" href="../../pages/party.html">Tomkin</a> before being fended off. <a class="wiki-link" href="../../pages/party.html">Tomkin</a> offered him a place by the fire.</li>
+  <li><a class="wiki-link" href="../../pages/party.html">Brother Henrick</a> cured his lycanthropy through divine intercession — Alfred needed only to ask.</li>
+  <li>Post-cure: bluer eyes, younger appearance, dense hair.</li>
+  <li>Came from <a class="wiki-link" href="../../pages/locations/brackenwold.html">Brackenwold</a>, where he was cursed. <a class="wiki-link" href="../../pages/party.html">Henrick</a> suspects the Bishop was responsible.</li>
+  <li>Chose to travel with the party, hoping for redemption.</li>
+  <li>Needs equipment — the party plans to outfit him in <a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a>.</li>
+</ul>
+      </div>
+      <div class="entity-sidebar">
+        
+    <div class="entity-sidebar-block">
+      <h4>Location</h4>
+      <p style="font-size:14px;">Traveling with the party</p>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Kindred</h4>
+      <p style="font-size:14px;">Human</p>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Associated Locations</h4>
+      <ul><li><a class="wiki-link" href="../../pages/locations/brackenwold.html">Brackenwold</a></li></ul>
+    </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</div>
+
+<div id="lightbox-overlay">
+  <img id="lightbox-img" src="" alt="Enlarged map view">
+</div>
+<script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var img     = document.getElementById('lightbox-img');
+    window.openLightbox = function(src) {
+      img.src = src;
+      overlay.classList.add('active');
+    };
+    overlay.addEventListener('click', function() {
+      overlay.classList.remove('active');
+      img.src = '';
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        img.src = '';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

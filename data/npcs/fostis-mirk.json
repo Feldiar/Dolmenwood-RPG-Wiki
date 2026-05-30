@@ -1,0 +1,24 @@
+{
+  "id": "fostis-mirk",
+  "name": "Fostis Mirk",
+  "aliases": ["Mirk"],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Fish bullion merchant",
+  "kindred": "Human",
+  "location": "Jaunty Horn (encountered); traveling between Dreg and Lankshorn",
+  "description": "A merchant from Dreg with a persistent smell of fishmonger. Six generations of his family have worked the fish trade. He sells fish bullion and was traveling to Lankshorn for the breggle festival when encountered.",
+  "notes": [
+    "From Dreg; family have been fishmongers for six generations.",
+    "Traveling to Lankshorn for the Hlerribuck breggle festival.",
+    "Warned Jack about Hogbeard, a dangerous zealot in Dreg.",
+    "Mentioned Shantywood Isle as a haunt for miscreants and shady figures."
+  ],
+  "connections": {
+    "locations": ["Dreg", "Lankshorn", "Jaunty Horn"],
+    "npcs": ["Hogbeard"],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

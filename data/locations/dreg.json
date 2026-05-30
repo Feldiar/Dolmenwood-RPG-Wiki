@@ -4,14 +4,20 @@
   "type": "Town",
   "region": "The High Wold",
   "first_seen": "session-1",
-  "description": "A town to the east of Lankshorn.",
-  "notes": [],
-  "npcs": [],
-  "sublocations": [],
+  "description": "A town to the east of Lankshorn, connected by the Ditchway. Famed for its bogwine sausages.",
+  "notes": [
+    "Famed for bogwine sausages.",
+    "Shantywood Isle is a part of Dreg frequented by miscreants and shady figures who prefer not to be found.",
+    "Hogbeard, a zealot in yellow smocks, operates here. He and his followers forcibly make sinners repent in public and cannot be trusted.",
+    "The party plans to resupply here after Session 5 and equip Alfred before resuming the hunt for Shub's Nana."
+  ],
+  "npcs": ["Hogbeard", "Fostis Mirk"],
+  "sublocations": ["Shantywood Isle"],
   "connections": {
     "locations": ["Lankshorn", "The Ditchway"],
     "factions": [],
-    "quests": []
+    "npcs": ["Hogbeard", "Fostis Mirk"],
+    "quests": ["Shub's Nana"]
   },
-  "sessions": ["session-1"]
+  "sessions": ["session-1", "session-5"]
 }

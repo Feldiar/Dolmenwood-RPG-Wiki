@@ -28,7 +28,10 @@
     "Man of Gold": "pages/locations/man-of-gold.html",
     "Nuncle Stones": "pages/locations/nuncle-stones.html",
     "Shadhome": "pages/locations/shadhome.html",
-    "Jaunty Horn": "pages/locations/jaunty-horn.html"
+    "Jaunty Horn": "pages/locations/jaunty-horn.html",
+    "The Golokstone": "pages/locations/golokstone.html",
+    "Golokstone": "pages/locations/golokstone.html",
+    "Brackenwold": "pages/locations/brackenwold.html"
   },
   "npcs": {
     "Father Dobey": "pages/npcs/father-dobey.html",
@@ -70,7 +73,16 @@
     "Whilptson-Puddingfoot": "pages/npcs/joromy-whilptson-puddingfoot.html",
     "Merrick": "pages/npcs/merrick.html",
     "Esther": "pages/npcs/esther.html",
-    "Shub's Nana": "pages/npcs/shubs-nana.html"
+    "Shub's Nana": "pages/npcs/shubs-nana.html",
+    "Jezebel": "pages/npcs/jezebel.html",
+    "Brehder": "pages/npcs/brehder.html",
+    "Berrild": "pages/npcs/berrild.html",
+    "Crump": "pages/npcs/crump.html",
+    "Fostis Mirk": "pages/npcs/fostis-mirk.html",
+    "Mirk": "pages/npcs/fostis-mirk.html",
+    "Hogbeard": "pages/npcs/hogbeard.html",
+    "Alfred": "pages/npcs/alfred.html",
+    "Aetho Grym": "pages/npcs/aetho-grym.html"
   },
   "party": {
     "Brother Henrick Tolmen": "pages/party.html",
@@ -90,12 +102,15 @@
     "Nag-Lord": "pages/factions/crookhorns.html",
     "Drune": "pages/factions/drune.html",
     "Hooded Men": "pages/factions/drune.html",
-    "Frost Elves": "pages/factions/frost-elves.html"
+    "Frost Elves": "pages/factions/frost-elves.html",
+    "Wooden Wolves": "pages/factions/wooden-wolves.html",
+    "Pluritine Church": "pages/factions/pluritine-church.html"
   },
   "quests": {
     "The Missing": "pages/quests/the-missing.html",
     "Crookhorn Bounty": "pages/quests/crookhorn-bounty.html",
     "The Crooked Constable": "pages/quests/the-crooked-constable.html",
-    "The Frozen Court": "pages/quests/the-frozen-court.html"
+    "The Frozen Court": "pages/quests/the-frozen-court.html",
+    "Stop Shub's Nana": "pages/quests/shubs-nana.html"
   }
 }

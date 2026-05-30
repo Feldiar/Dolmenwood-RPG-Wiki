@@ -55,16 +55,46 @@
       "source": "session-3"
     },
     {
-      "id": "lady-of-spring-unending",
-      "title": "The Lady of Spring Unending",
-      "content": "Princess Andromethia warned Lucien about her sister, who rules the Deathglades from a palace of white marble. Her title is the Lady of Spring Unending. Andromethia's tone when she named her was not casual. Nothing else is known.",
+      "id": "breggles-at-the-church",
+      "title": "Breggles at the Church",
+      "content": "Mabble witnessed Father Dobey admit two male breggles to the Church of St. Pastery late at night. Neither returned. Their identities and fate are unknown.",
       "source": "session-4"
     },
     {
-      "id": "grey-creatures-in-the-clearing",
-      "title": "The Grey Creatures in the Clearing",
-      "content": "A crow observed small grey creatures that frequent the clearing along the Ditchway where the Constable met with the silver goblins. The creatures simply vanish when observed. Their nature and purpose are unknown.",
+      "id": "wolder-crystal-vial",
+      "title": "Wolder's Crystal Vial",
+      "content": "A crystal vial of liquid with a faint nutty aroma was found on Constable Wolder by Jack, who pocketed it. Its contents and purpose are unknown.",
       "source": "session-4"
+    },
+    {
+      "id": "the-draining-stone",
+      "title": "The Draining Stone",
+      "content": "The Wooden Wolves reported that their companion Brehder touched a strange stone in the wilderness. Color and vitality drained out of her entirely — she was left insensible, grey-furred, with milky white eyes. The land around the stone was also drained and left grey. The location and nature of the stone are unknown.",
+      "source": "session-5"
+    },
+    {
+      "id": "the-golokstone",
+      "title": "The Golokstone",
+      "content": "A sandstone slab ten feet tall, cracked down the center, ringed by scarlet toadstools in a forest glade. The markings on the slab are in an unreadable ancient script. The Drune Aetho Grym claims the site as the exclusive domain of the Drune and forbids mortals and fairies from returning. The toadstool spores induce powerful Pluritine religious hallucinations. The site's purpose and significance are unknown.",
+      "source": "session-5"
+    },
+    {
+      "id": "grey-crystal-depression",
+      "title": "The Grey Depression to the Northeast",
+      "content": "Visible from a treetop vantage at the end of Session 5: a grey depression in the earth to the northeast, with a large crystal at its center catching the light strangely. No name or further information is known.",
+      "source": "session-5"
+    },
+    {
+      "id": "the-bishop-of-brackenwold",
+      "title": "The Bishop of Brackenwold",
+      "content": "Alfred came from Brackenwold — the seat of the Pluritine Church — where he was cursed with lycanthropy. Brother Henrick suspects the Bishop was responsible. Nothing further is known about the Bishop or what is happening at Brackenwold.",
+      "source": "session-5"
+    },
+    {
+      "id": "the-unicorn",
+      "title": "The Unicorn in the Wood",
+      "content": "A unicorn with a rainbow aura, a long horn, and a ten-foot tail was encountered near camp on Parchment 1. It judged a cursed man named Alfred unworthy and refused to lift his curse, but judged Tomkin worthy, temporarily blessing his longsword. A man was pursuing the unicorn, claiming to have found it first. The unicorn's identity, origin, and whether it will be encountered again are unknown.",
+      "source": "session-5"
     }
   ]
 }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fostis Mirk — Dolmenwood Campaign Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <style>
+    #lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 9999;
+      cursor: zoom-out;
+      align-items: center;
+      justify-content: center;
+    }
+    #lightbox-overlay.active { display: flex; }
+    #lightbox-overlay img {
+      max-width: 92vw;
+      max-height: 92vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.7);
+    }
+  </style>
+  
+</head>
+<body>
+<div class="layout">
+
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <a href="../../index.html">Dolmenwood Campaign Wiki</a>
+    <span class="campaign-name">Dolmenwood</span>
+  </div>
+  <div class="sidebar-section">Party</div>
+  <a class="sidebar-item" href="../../pages/party.html">The Party</a>
+  <div class="sidebar-section">World</div>
+  <a class="sidebar-item" href="../../pages/locations/index.html">Locations</a>
+  <a class="sidebar-item" href="../../pages/factions/index.html">Factions</a>
+  <a class="sidebar-item active" href="../../pages/npcs/index.html">NPCs</a>
+  <div class="sidebar-section">Story</div>
+  <a class="sidebar-item" href="../../pages/quests/index.html">Quests</a>
+  <a class="sidebar-item" href="../../pages/loose-ends.html">Loose Ends, Rumors, and Misc.</a>
+  <div class="sidebar-section">Journal</div>
+  <a class="sidebar-item" href="../../pages/sessions/session-1.html">Session 1 — The Road East</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-2.html">Session 2 — Below the Knoll</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-3.html">Session 3 — The Prisoner</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-4.html">Session 4 — The Con(stable) Job</a>
+  <a class="sidebar-item" href="../../pages/sessions/session-5.html">Session 5 — The Judgement of the Unicorn</a>
+</nav>
+
+<main class="main">
+  <div class="main-inner">
+
+    <div class="page-header">
+      <div class="page-eyebrow">
+        <a href="../../index.html">Home</a>
+        <span class="separator">›</span>
+        <a href="index.html">NPCs</a>
+        <span class="separator">›</span>
+        Fostis Mirk
+      </div>
+      <h1 class="page-title">Fostis Mirk</h1>
+      <div class="page-meta"><span class="tag tag-session">S5</span></div>
+    </div>
+
+    <div class="entity-layout">
+      <div class="entity-content">
+        <p>A merchant from <a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a> with a persistent smell of fishmonger. Six generations of his family have worked the fish trade. He sells fish bullion and was traveling to <a class="wiki-link" href="../../pages/locations/lankshorn.html">Lankshorn</a> for the breggle festival when encountered.</p>
+        <ul>
+  <li>From <a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a>; family have been fishmongers for six generations.</li>
+  <li>Traveling to <a class="wiki-link" href="../../pages/locations/lankshorn.html">Lankshorn</a> for the Hlerribuck breggle festival.</li>
+  <li>Warned <a class="wiki-link" href="../../pages/party.html">Jack</a> about <a class="wiki-link" href="../../pages/npcs/hogbeard.html">Hogbeard</a>, a dangerous zealot in <a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a>.</li>
+  <li>Mentioned Shantywood Isle as a haunt for miscreants and shady figures.</li>
+</ul>
+      </div>
+      <div class="entity-sidebar">
+        
+    <div class="entity-sidebar-block">
+      <h4>Location</h4>
+      <p style="font-size:14px;"><a class="wiki-link" href="../../pages/locations/jaunty-horn.html">Jaunty Horn</a> (encountered); traveling between <a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a> and <a class="wiki-link" href="../../pages/locations/lankshorn.html">Lankshorn</a></p>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Kindred</h4>
+      <p style="font-size:14px;">Human</p>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Associated Locations</h4>
+      <ul><li><a class="wiki-link" href="../../pages/locations/dreg.html">Dreg</a></li><li><a class="wiki-link" href="../../pages/locations/lankshorn.html">Lankshorn</a></li><li><a class="wiki-link" href="../../pages/locations/jaunty-horn.html">Jaunty Horn</a></li></ul>
+    </div>
+    <div class="entity-sidebar-block">
+      <h4>Connected NPCs</h4>
+      <ul><li><a class="wiki-link" href="../../pages/npcs/hogbeard.html">Hogbeard</a></li></ul>
+    </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</div>
+
+<div id="lightbox-overlay">
+  <img id="lightbox-img" src="" alt="Enlarged map view">
+</div>
+<script>
+  (function() {
+    var overlay = document.getElementById('lightbox-overlay');
+    var img     = document.getElementById('lightbox-img');
+    window.openLightbox = function(src) {
+      img.src = src;
+      overlay.classList.add('active');
+    };
+    overlay.addEventListener('click', function() {
+      overlay.classList.remove('active');
+      img.src = '';
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        img.src = '';
+      }
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "id": "hogbeard",
+  "name": "Hogbeard",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Religious zealot",
+  "kindred": "Human",
+  "location": "Dreg",
+  "description": "A zealot based in Dreg. He and his followers wear yellow smocks. He believes certain people should be removed from Dreg to improve it, and forcibly makes sinners repent in public. Described by Fostis Mirk as a holy man who cannot be trusted.",
+  "notes": [
+    "Not encountered directly — described by Fostis Mirk.",
+    "He and his followers wear yellow smocks.",
+    "Believes Dreg would be improved by removing specific people; has been known to force sinners to repent publicly.",
+    "Cannot be trusted, per Mirk."
+  ],
+  "connections": {
+    "locations": ["Dreg"],
+    "npcs": ["Fostis Mirk"],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

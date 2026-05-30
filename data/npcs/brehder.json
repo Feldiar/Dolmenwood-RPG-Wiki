@@ -1,0 +1,23 @@
+{
+  "id": "brehder",
+  "name": "Brehder",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Adventurer (Wooden Wolves)",
+  "kindred": "Breggle",
+  "location": "Jaunty Horn",
+  "description": "A female breggle with grey fur and grey clothes. When encountered, she was insensible and limp, her eyes milky white. She glowed under Detect Magic.",
+  "notes": [
+    "Found incapacitated and being carried by her companions in the Wooden Wolves.",
+    "She touched a strange stone in the wilderness; color and vitality drained out of her entirely. The land around the stone was similarly drained and left grey.",
+    "Glows under Detect Magic — the nature of the enchantment is unclear."
+  ],
+  "connections": {
+    "locations": [],
+    "npcs": ["Berrild", "Crump"],
+    "factions": ["Wooden Wolves"],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}

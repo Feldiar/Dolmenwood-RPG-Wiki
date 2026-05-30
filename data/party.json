@@ -7,7 +7,7 @@
       "aliases": ["Brother Henrick", "Henrick"],
       "kindred": "Human",
       "class": "Friar",
-      "level": 2,
+      "level": 3,
       "player": "Jake"
     },
     {
@@ -25,7 +25,7 @@
       "aliases": ["Tomkin"],
       "kindred": "Grimalkin",
       "class": "Knight",
-      "level": 2,
+      "level": 3,
       "player": "Nick"
     },
     {
@@ -34,7 +34,7 @@
       "aliases": ["Gwomotom"],
       "kindred": "Mossling",
       "class": "Hunter",
-      "level": 2,
+      "level": 3,
       "player": "Josh"
     },
     {
@@ -43,8 +43,18 @@
       "aliases": [],
       "kindred": "Grimalkin",
       "class": "Thief",
-      "level": 3,
+      "level": 4,
       "player": "Stevie"
+    }
+  ],
+  "retainers": [
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "aliases": [],
+      "kindred": "Human",
+      "class": "Unknown",
+      "notes": "Former lycanthrope cured by Brother Henrick in Session 5. Joined the party seeking redemption. Came from Brackenwold. Needs to be equipped in Dreg."
     }
   ]
 }

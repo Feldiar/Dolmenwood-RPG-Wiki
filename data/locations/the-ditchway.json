@@ -4,10 +4,12 @@
   "type": "Road",
   "region": "The High Wold",
   "first_seen": "session-1",
-  "description": "The main road east out of Lankshorn. Sandy banks line either side, and it passes through a beech forest.",
+  "description": "The main road east out of Lankshorn, running toward Dreg. Sandy birchwood near Lankshorn gives way to older, thicker forest further south. As the road extends, it cuts deeper into the earth with the forest rising on earthen walls to either side. The soil turns orange further along, as though blood was long ago worked into the ground.",
   "notes": [
     "Eyeless worms up to 6 feet long have been spotted along the road — immature nightworm spawn.",
-    "Mabble's wooden prayer beads were found here by Gwomotom."
+    "Mabble's wooden prayer beads were found here by Gwomotom.",
+    "Adult nightworms congregate to the north near large rocks and large holes in the earth, per a hawk Gwomotom spoke with in Session 5.",
+    "Dense underbrush lines the way off-road; traversal without a path is difficult."
   ],
   "npcs": [],
   "sublocations": [],
@@ -16,5 +18,5 @@
     "factions": [],
     "quests": ["The Missing"]
   },
-  "sessions": ["session-1"]
+  "sessions": ["session-1", "session-5"]
 }

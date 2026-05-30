@@ -1,0 +1,24 @@
+{
+  "id": "jezebel",
+  "name": "Jezebel",
+  "aliases": [],
+  "status": "active",
+  "first_seen": "session-5",
+  "occupation": "Innkeeper, former adventurer",
+  "kindred": "Human",
+  "location": "Jaunty Horn",
+  "description": "Stout and muscular woman in her late thirties, dressed in the garb of an adventurer. She bought the Jaunty Horn with her adventuring earnings and now runs it as proprietor.",
+  "notes": [
+    "Purchased the Jaunty Horn with adventuring loot.",
+    "Dreams of hunting a yellow bile wyrm south of Prigwort as her last great adventure — she's heard the story but never encountered the beast herself. A knight reportedly chased it off before anyone could engage it; neither have been seen since.",
+    "Keeps a bottle of nippers in stock for grimalkin guests.",
+    "Recognised Constable Wolder when the party arrived; he was visibly uncomfortable."
+  ],
+  "connections": {
+    "locations": ["Jaunty Horn"],
+    "npcs": [],
+    "factions": [],
+    "quests": []
+  },
+  "sessions": ["session-5"]
+}
