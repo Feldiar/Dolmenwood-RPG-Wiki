@@ -3,24 +3,26 @@
   "name": "The Crooked Constable",
   "status": "active",
   "first_seen": "session-2",
-  "description": "A Gaff letter found in the dungeon beneath Droomen Knoll revealed that Constable Sidney Wolder is an agent of the Nag-Lord — the same entity responsible for creating the crookhorns. Wolder has been operating inside Lankshorn's constabulary. The party knows, and Wolder does not know they know.",
+  "description": "A Gaff letter found beneath Droomen Knoll revealed Constable Sidney Wolder as a Nag-Lord contact. After being captured and questioned in Session 4, Wolder confessed his role and was turned: he has been sent back to Lankshorn to act as though nothing has changed, and to continue making contact with Shub's Nana as he normally would. The party is now running Wolder as an unwitting asset while they pursue the crone.",
   "objectives": [
+    "Pursue and stop Shub's Nana — see the Stop Shub's Nana quest.",
+    "Determine whether Sgt. Marge Bregson is an ally or another agent.",
     "Determine the full extent of the Nag-Lord's network in Lankshorn.",
-    "Decide what to do with knowledge of Wolder's treachery.",
-    "Determine whether Sgt. Marge Bregson is an ally or another agent."
+    "Decide what to do with Wolder in the longer term."
   ],
   "leads": [
     "The Gaff letter, translated by Llerg, explicitly named Wolder as a Nag-Lord contact. Llerg was bribed to keep silent and has since left Lankshorn for High Hankle.",
-    "Jack sent a false letter to the constabulary claiming the party would depart on Moot — a day later than planned — hoping to forestall any ambush on the road.",
+    "In Session 4, Wolder was lured into the woods and captured. He confessed: he arranged the disappearances to discredit Lord Malbleat, not on direct Nag-Lord orders. He worked through Shub's Nana independently.",
+    "In Session 5, Wolder was released with instructions to return to Lankshorn and behave normally, including continuing to contact Shub's Nana. He pointed the party toward the crone's cottage before departing.",
+    "Wolder denied knowing why Father Dobey had breggles visiting the Church of St. Pastery at night. Henrick believed him.",
     "Brennan was assigned by Sgt. Bregson to accompany the party as a representative of the town guard. His loyalties remain unclear.",
     "Sgt. Marge Bregson's allegiance is uncertain. She may be a genuine ally or part of the same network.",
-    "Pro-Ramius breggles — Marialla, James, and Fisk — accosted Llerg at the Bogways in Session 3. Session 4 confirmed they are operatives delivering children to Shub's Nana's silver goblins.",
-    "In Session 4, Wolder was lured into the woods and captured. Under questioning he confessed: he arranged the disappearances to discredit Lord Malbleat, not on direct Nag-Lord orders. He worked through Shub's Nana — a crone who serves the Nag-Lord independently. See the Shub's Nana quest."
+    "Pro-Ramius breggles — Marialla, James, and Fisk — are confirmed operatives delivering children to Shub's Nana's silver goblins. They also accosted Llerg at the Bogways."
   ],
   "connections": {
-    "npcs": ["Constable Sidney Wolder", "Sgt. Marge Bregson", "Brennan", "Llerg", "Shub's Nana"],
+    "npcs": ["Constable Sidney Wolder", "Sgt. Marge Bregson", "Brennan", "Llerg", "Shub's Nana", "Father Dobey"],
     "locations": ["The Constabulary", "Lankshorn", "Droomen Knoll"],
     "factions": ["Crookhorns"]
   },
-  "sessions": ["session-2", "session-3", "session-4"]
+  "sessions": ["session-2", "session-3", "session-4", "session-5"]
 }

@@ -3,11 +3,11 @@
   "name": "Wooden Wolves",
   "status": "active",
   "first_seen": "session-5",
-  "description": "A breggle adventuring party aligned with Lord Malbleat. They wear the green and yellow of Malbleat's colors. Encountered at the Jaunty Horn carrying their stricken companion Brehder, who had been drained of color and vitality by a mysterious stone in the wilderness.",
+  "description": "A breggle adventuring party aligned with Lord Malbleat. They wear the green and yellow of Malbleat's colors. Encountered at the Jaunty Horn carrying their stricken companion Brehder, who had been drained of color and vitality by a large crystal in the wilderness.",
   "notes": [
     "Identified themselves as the Wooden Wolves when encountered at the Jaunty Horn.",
     "Wear the green and yellow of Lord Malbleat.",
-    "One member, Brehder, was rendered insensible after touching a strange draining stone; the surrounding wilderness was also left grey and sapped.",
+    "One member, Brehder, was rendered insensible after touching a large draining crystal; the surrounding wilderness was also left grey and sapped.",
     "At least one member carries a magic ring, one has magic armor, and one has magic purple boots. Berrild's crystal eye also registers as magical."
   ],
   "known_members": ["Brehder", "Berrild", "Crump"],

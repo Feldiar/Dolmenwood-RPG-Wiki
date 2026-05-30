@@ -7,19 +7,19 @@
   "occupation": "Retainer (traveling with the party)",
   "kindred": "Human",
   "location": "Traveling with the party",
-  "description": "A man in his mid-forties, dirty and wild-haired when first encountered, who had been suffering from lycanthropy. Cured by Brother Henrick, he woke with bluer eyes and a slightly younger face. He was cursed at Brackenwold and seeks redemption.",
+  "description": "A man in his mid-forties, dirty and wild-haired when first encountered, who had been suffering from lycanthropy. Cured by Brother Henrick, he woke with bluer eyes and a slightly younger face. He was cursed at Castle Brackenwold and seeks redemption.",
   "notes": [
     "Encountered in the woods at night, pursuing a unicorn he hoped would cure his lycanthropy.",
     "The unicorn judged him unworthy of its blessing.",
     "Tomkin encountered him first; Alfred attempted to bite Tomkin before being fended off. Tomkin offered him a place by the fire.",
     "Brother Henrick cured his lycanthropy through divine intercession — Alfred needed only to ask.",
     "Post-cure: bluer eyes, younger appearance, dense hair.",
-    "Came from Brackenwold, where he was cursed. Henrick suspects the Bishop was responsible.",
+    "Came from Castle Brackenwold, where he was cursed. Henrick suspects the Bishop was responsible.",
     "Chose to travel with the party, hoping for redemption.",
     "Needs equipment — the party plans to outfit him in Dreg."
   ],
   "connections": {
-    "locations": ["Brackenwold"],
+    "locations": ["Castle Brackenwold"],
     "npcs": [],
     "factions": ["Pluritine Church"],
     "quests": []

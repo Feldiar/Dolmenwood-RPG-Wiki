@@ -3,17 +3,17 @@
   "name": "Pluritine Church",
   "status": "active",
   "first_seen": "session-1",
-  "description": "The dominant religious institution of Dolmenwood, worshipping through an extensive canon of saints. The Church maintains a presence in Lankshorn through the Church of St. Pastery and its priest Father Dobey. The Bishop resides at Brackenwold, which serves as the seat of the Church in the region.",
+  "description": "The dominant religious institution of Dolmenwood, worshipping through an extensive canon of saints. The Church maintains a presence in Lankshorn through the Church of St. Pastery and its priest Father Dobey. The Bishop resides at Castle Brackenwold, which serves as the seat of the Church in the region.",
   "notes": [
     "The Pluritine Church historically allied with the Drune and the nobility to hold the Cold Prince and his frost elves at bay. Those alliances have since faltered; the Drune are now widely regarded as heretical Hooded Men.",
     "The Church of St. Pastery in Lankshorn is built from antique stone with a tall steeple and carved gargoyles and angels in conflict. Its interior is plain and unadorned. A wooden statue of St. Pastery — depicted holding a shovel and cleaver — stands inside.",
     "Father Dobey serves as vicar of St. Pastery. He admitted two male breggles to the church late at night in Session 4; neither returned. Constable Wolder claims ignorance of this.",
-    "The Bishop resides at Brackenwold. Brother Henrick suspects the Bishop is responsible for Alfred's lycanthropy curse.",
-    "Toadstool spores near the Golokstone induced Pluritine hallucinations in the party — saints beckoning, sacred figures in religious iconography."
+    "The Bishop resides at Castle Brackenwold. Brother Henrick suspects the Bishop is responsible for Alfred's lycanthropy curse.",
+    "Toadstool spores near the Golokstone induced religious hallucinations in the party — saints beckoning, sacred figures across a dissolving threshold."
   ],
   "known_members": ["Father Dobey", "The Bishop"],
   "connections": {
-    "locations": ["Church of St. Pastery", "Brackenwold", "Lankshorn"],
+    "locations": ["Church of St. Pastery", "Castle Brackenwold", "Lankshorn"],
     "npcs": ["Father Dobey", "Mabble", "Alfred"],
     "quests": ["The Missing"]
   },
